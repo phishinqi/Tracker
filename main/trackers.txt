@@ -546,11 +546,11 @@ udp://tk2v6.trackerservers.com:8080/announce
 
 http://bvarf.tracker.sh:2086/announce
 
+udp://open.demonoid.ch:6969/announce
+
 udp://www.torrent.eu.org:451/announce
 
 https://bittorrent.service.gongt.me:59443/announce
-
-udp://open.demonoid.ch:6969/announce
 
 udp://tracker.filemail.com:6969/announce
 
@@ -586,9 +586,9 @@ udp://wepzone.net:6969/announce
 
 udp://run.publictracker.xyz:6969/announce
 
-http://open.acgtracker.com:1096/announce
-
 http://tracker.bt4g.com:2095/announce
+
+http://open.acgtracker.com:1096/announce
 
 udp://1c.premierzal.ru:6969/announce
 
@@ -608,9 +608,9 @@ udp://ryjer.com:6969/announce
 
 udp://u6.trakx.crim.ist:1337/announce
 
-udp://ipv4.rer.lol:2710/announce
-
 https://tracker1.520.jp:443/announce
+
+udp://ipv4.rer.lol:2710/announce
 
 udp://jutone.com:6969/announce
 
@@ -630,9 +630,9 @@ http://ipv4announce.sktorrent.eu:6969/announce
 
 http://ch3oh.ru:6969/announce
 
-udp://retracker.lanta.me:2710/announce
-
 http://tracker.renfei.net:8080/announce
+
+udp://retracker.lanta.me:2710/announce
 
 udp://new-line.net:6969/announce
 
@@ -642,11 +642,11 @@ http://tracker.vraphim.com:6969/announce
 
 https://threads.canofsocks.com:443/announce
 
-udp://tracker1.t-1.org:6969/announce
+udp://tracker1.myporn.club:9337/announce
 
 udp://bt.rer.lol:6969/announce
 
-udp://tracker1.myporn.club:9337/announce
+udp://tracker1.t-1.org:6969/announce
 
 udp://open.u-p.pw:6969/announce
 
@@ -714,9 +714,9 @@ http://tracker.ipv6tracker.ru:80/announce
 
 udp://tracker-us.silksa.co.za:6969/announce
 
-http://tracker.phoenix.lol:80/announce
-
 http://smurfsoft.com:6969/announce
+
+http://tracker.phoenix.lol:80/announce
 
 http://tracker.gbitt.info:80/announce
 
@@ -1373,11 +1373,11 @@ udp://tk2v6.trackerservers.com:8080/announce
 
 http://bvarf.tracker.sh:2086/announce
 
+udp://open.demonoid.ch:6969/announce
+
 udp://www.torrent.eu.org:451/announce
 
 https://bittorrent.service.gongt.me:59443/announce
-
-udp://open.demonoid.ch:6969/announce
 
 udp://tracker.filemail.com:6969/announce
 
@@ -1413,9 +1413,9 @@ udp://wepzone.net:6969/announce
 
 udp://run.publictracker.xyz:6969/announce
 
-http://open.acgtracker.com:1096/announce
-
 http://tracker.bt4g.com:2095/announce
+
+http://open.acgtracker.com:1096/announce
 
 udp://1c.premierzal.ru:6969/announce
 
