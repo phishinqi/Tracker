@@ -344,9 +344,9 @@ http://cn.pcfreetime.com:6969/announce
 
 udp://tracker.t-1.org:6969/announce
 
-udp://ipv6.fuuuuuck.com:6969/announce
-
 https://tracker.loligirl.cn:443/announce
+
+udp://ipv6.fuuuuuck.com:6969/announce
 
 udp://oh.fuuuuuck.com:6969/announce
 
