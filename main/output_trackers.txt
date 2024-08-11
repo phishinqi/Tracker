@@ -346,9 +346,9 @@ https://t.peer-exchange.download:443/announce
 
 udp://tracker.farted.net:6969/announce
 
-udp://6ahddutb1ucc3cp.ru:6969/announce
-
 http://t.acg.rip:6699/announce
+
+udp://6ahddutb1ucc3cp.ru:6969/announce
 
 udp://tracker.theoks.net:6969/announce
 
@@ -635,8 +635,6 @@ https://tracker.nitrix.me:443/announce
 udp://chihaya.de:6969/announce
 
 udp://smtp.loki.tel:25/announce
-
-http://mail.martin-gebhardt.com:8443/announce
 
 http://multi.open-tracker.cf:8000/announce
 
