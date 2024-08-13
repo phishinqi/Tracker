@@ -288,29 +288,17 @@ udp://z.mercax.com:53/announce
 
 wss://tracker.openwebtorrent.com:443/announce
 
-udp://explodie.org:6969/announce
-
-udp://tracker.dump.cl:6969/announce
-
 udp://tracker-udp.gbitt.info:80/announce
 
-udp://open.free-tracker.ga:6969/announce
+udp://explodie.org:6969/announce
 
 http://tracker1.bt.moack.co.kr:80/announce
 
 http://tr.kxmp.cf:80/announce
 
-udp://tracker.auctor.tv:6969/announce
-
-udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
-
 http://tracker.qu.ax:6969/announce
 
 http://t.overflow.biz:6969/announce
-
-http://canardscitrons.nohost.me:6969/announce
-
-http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://tracker1.itzmx.com:8080/announce
 
@@ -358,21 +346,25 @@ http://t.acg.rip:6699/announce
 
 udp://tracker.theoks.net:6969/announce
 
+udp://tracker-us.silksa.co.za:6969/announce
+
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
-https://t.peer-exchange.download:443/announce
+http://canardscitrons.nohost.me:6969/announce
 
-udp://tracker-us.silksa.co.za:6969/announce
+https://t.peer-exchange.download:443/announce
 
 udp://tracker1.bt.moack.co.kr:80/announce
 
 http://smurfsoft.com:6969/announce
 
+udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+
 udp://tracker.vds.nz:6969/announce
 
-udp://tracker.therarbg.com:6969/announce
-
 https://tracker.cangku.moe:443/announce
+
+udp://tracker.therarbg.com:6969/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
@@ -392,9 +384,9 @@ udp://freedomalternative.com:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
 
-udp://btt.service.gongt.me:43079/announce
-
 https://tracker.moeblog.cn:443/announce
+
+udp://btt.service.gongt.me:43079/announce
 
 http://tracker.skyts.net:6969/announce
 
@@ -1142,6 +1134,8 @@ http://93.158.213.92:1337/announce
 
 http://www.zone-torrent.net:80/announce.php
 
+udp://tracker.auctor.tv:6969/announce
+
 udp://theodoric.fr:6969/announce
 
 http://data-bg.net:80/announce.php
@@ -1317,6 +1311,8 @@ http://tracker.dmcomic.org:2710/announce
 http://tracker.tfile.me:80/announce
 
 udp://tracker.trackerfix.com:82/announce
+
+udp://open.free-tracker.ga:6969/announce
 
 http://retracker.ohys.net:80/announce
 
@@ -2722,8 +2718,6 @@ http://mixfiend.com:80/announce
 
 http://mkfs.ru:80/announce
 
-http://multi.open-tracker.cf:8000/announce
-
 http://nagios.tks.sumy.ua:80/announce
 
 http://open.miotracker.com:80/announce
@@ -3012,6 +3006,8 @@ udp://torrenttracker.nwc.acsalaska.net:6969/announce
 
 udp://tracker.doko.moe:6969/announce
 
+udp://tracker.dump.cl:6969/announce
+
 udp://tracker.etree.org:6969/announce
 
 udp://tracker.files.fm:6969/announce
@@ -3028,11 +3024,7 @@ udp://tracker.pcfreetime.com:6969/announce
 
 udp://tracker.vrpnet.org:6969/announce
 
-udp://tracker.xiaoduola.xyz:6969/announce
-
 udp://tracker.ygsub.com:6969/announce
-
-udp://tracker.yoshi210.com:6969/announce
 
 udp://ulfbrueggemann.no-ip.org:6969/announce
 
@@ -3074,6 +3066,8 @@ http://5.182.86.242:6969/announce
 
 http://51.79.71.167/announce
 
+http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+
 http://bt.ali213.net00/announce
 
 http://bt.ali213.net80/announce
@@ -3087,6 +3081,8 @@ http://jsb.by00/announce
 http://laxclax.ddns.net00/announce
 
 http://montreal.nyap2p.com80/announce
+
+http://multi.open-tracker.cf:8000/announce
 
 http://share.camoe.cn80/announce
 
@@ -3199,6 +3195,10 @@ udp://89.237.25.92:6969/announce
 udp://91.216.110.53:451/announce
 
 udp://96.126.98.54:6969/announce
+
+udp://tracker.xiaoduola.xyz:6969/announce
+
+udp://tracker.yoshi210.com:6969/announce
 
 http://open.nyaatorrents.info:6544/announce
 
