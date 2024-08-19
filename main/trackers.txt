@@ -638,9 +638,9 @@ http://open.acgtracker.com:1096/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-udp://ttk2.nbaonlineservice.com:6969/announce
-
 https://tracker1.520.jp:443/announce
+
+udp://ttk2.nbaonlineservice.com:6969/announce
 
 udp://opentracker.io:6969/announce
 
@@ -662,9 +662,9 @@ udp://ryjer.com:6969/announce
 
 udp://tk1.trackerservers.com:8080/announce
 
-udp://tracker.srv00.com:6969/announce
-
 https://www.peckservers.com:9443/announce
+
+udp://tracker.srv00.com:6969/announce
 
 udp://t.overflow.biz:6969/announce
 
@@ -712,9 +712,9 @@ udp://tracker.farted.net:6969/announce
 
 udp://tracker1.myporn.club:9337/announce
 
-udp://bt.ktrackers.com:6666/announce
-
 http://0x7c.space:7070/announce
+
+udp://bt.ktrackers.com:6666/announce
 
 https://tracker.loligirl.cn:443/announce
 
@@ -730,11 +730,11 @@ http://canardscitrons.nohost.me:6969/announce
 
 udp://tracker.t-1.org:6969/announce
 
+udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+
 udp://retracker.lanta.me:2710/announce
 
 udp://tracker3.t-1.org:6969/announce
-
-udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://tracker.pcfreetime.com:6969/announce
 
@@ -1459,9 +1459,9 @@ http://open.acgtracker.com:1096/announce
 
 http://tracker.mywaifu.best:6969/announce
 
-udp://ttk2.nbaonlineservice.com:6969/announce
-
 https://tracker1.520.jp:443/announce
+
+udp://ttk2.nbaonlineservice.com:6969/announce
 
 udp://opentracker.io:6969/announce
 
@@ -1474,6 +1474,8 @@ udp://tracker.torrust-demo.com:6969/announce
 udp://jutone.com:6969/announce
 
 udp://1c.premierzal.ru:6969/announce
+
+udp://d40969.acod.regrucolo.ru:6969/announce
 
 
 http://1337.abcvg.info:80/announce
