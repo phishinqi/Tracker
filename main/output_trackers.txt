@@ -366,9 +366,9 @@ http://cn.pcfreetime.com:6969/announce
 
 udp://ipv6.fuuuuuck.com:6969/announce
 
-udp://oh.fuuuuuck.com:6969/announce
-
 http://tracker.guguan.000.pe:80/announce
+
+udp://oh.fuuuuuck.com:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
