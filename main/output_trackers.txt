@@ -314,9 +314,9 @@ http://tracker1.itzmx.com:8080/announce
 
 http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
-http://tracker.dump.cl:6969/announce
-
 http://isk.richardsw.club:6969/announce
+
+http://tracker.dump.cl:6969/announce
 
 http://open.acgtracker.com:1096/announce
 
