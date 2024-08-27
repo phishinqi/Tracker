@@ -308,9 +308,9 @@ http://open.acgtracker.com:1096/announce
 
 udp://tk1.trackerservers.com:8080/announce
 
-http://smurfsoft.com:6969/announce
-
 https://threads.canofsocks.com:443/announce
+
+http://smurfsoft.com:6969/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
