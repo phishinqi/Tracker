@@ -288,15 +288,27 @@ wss://tracker.openwebtorrent.com:443/announce
 
 udp://tracker-udp.gbitt.info:80/announce
 
+udp://new-line.net:6969/announce
+
 udp://explodie.org:6969/announce
 
-http://t.overflow.biz:6969/announce
+http://tracker1.bt.moack.co.kr:80/announce
+
+udp://tracker.dump.cl:6969/announce
+
+udp://tracker.bittor.pw:1337/announce
+
+udp://isk.richardsw.club:6969/announce
+
+https://tracker.imgoingto.icu:443/announce
 
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
-http://tracker1.itzmx.com:8080/announce
+http://t.overflow.biz:6969/announce
 
 http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+
+http://tracker1.itzmx.com:8080/announce
 
 https://pybittrack.retiolus.net:443/announce
 
@@ -318,13 +330,11 @@ udp://tracker.torrust-demo.com:6969/announce
 
 http://tracker.enitin.xyz:80/announce
 
-udp://new-line.net:6969/announce
-
 http://smurfsoft.com:6969/announce
 
-udp://bt.rer.lol:6969/announce
-
 http://tracker.k.vu:6969/announce
+
+udp://bt.rer.lol:6969/announce
 
 http://tracker.vraphim.com:6969/announce
 
@@ -349,8 +359,6 @@ https://tracker.loligirl.cn:443/announce
 http://tracker.pcfreetime.com:6969/announce
 
 http://thetracker.org:80/announce
-
-https://tracker.imgoingto.icu:443/announce
 
 udp://free.publictracker.xyz:6969/announce
 
@@ -1404,8 +1412,6 @@ http://61.216.109.95:6969/announce
 
 http://61.216.166.123:6969/announce
 
-http://tracker1.bt.moack.co.kr:80/announce
-
 http://bt.beatrice-raws.org/announce
 
 http://www.xwt-classics.net/announce.php
@@ -2280,8 +2286,6 @@ http://opentracker.io:80/announce
 
 udp://185.181.60.155:80/announce
 
-udp://tracker.bittor.pw:1337/announce
-
 udp://tracker.cubonegro.xyz:6969/announce
 
 udp://156.234.201.18:80/announce
@@ -2970,8 +2974,6 @@ udp://ipv6.rer.lol:6969/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
 
-udp://isk.richardsw.club:6969/announce
-
 udp://jp.moeweb.pw:6969/announce
 
 udp://mail.lakameraobscura.com:6969/announce
@@ -3005,8 +3007,6 @@ udp://torrents.hikarinokiseki.com:6969/announce
 udp://torrenttracker.nwc.acsalaska.net:6969/announce
 
 udp://tracker.doko.moe:6969/announce
-
-udp://tracker.dump.cl:6969/announce
 
 udp://tracker.etree.org:6969/announce
 
