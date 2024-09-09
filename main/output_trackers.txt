@@ -2704,8 +2704,6 @@ http://bt.dl1234.com:80/announce
 
 http://btx.anifilm.tv:80/announce
 
-http://connect.swifte.space:2710/announce
-
 http://data-bg.net:80/announce
 
 http://datascene.net:80/announce
@@ -2960,8 +2958,6 @@ udp://bt1.xxxxbt.cc:6969/announce
 
 udp://bttracker.debian.org:6969/announce
 
-udp://buny.uk:6969/announce
-
 udp://canardscitrons.nohost.me:6969/announce
 
 udp://caramelo.ddns.net:8000/announce
@@ -3046,8 +3042,6 @@ udp://tracker.pcfreetime.com:6969/announce
 
 udp://tracker.vanitycore.co:6969/announce
 
-udp://tracker.vraphim.com:6969/announce
-
 udp://tracker.vrpnet.org:6969/announce
 
 udp://tracker.xiaoduola.xyz:6969/announce
@@ -3073,6 +3067,12 @@ udp://www.tvnihon.com:6969/announce
 ws://tracker.files.fm:7072/announce
 
 wss://tracker.magnetoo.io:443/announce
+
+http://connect.swifte.space:2710/announce
+
+udp://buny.uk:6969/announce
+
+udp://tracker.vraphim.com:6969/announce
 
 http://125.227.79.123:80/announce
 
