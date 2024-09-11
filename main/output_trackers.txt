@@ -340,9 +340,9 @@ http://ipv4announce.sktorrent.eu:6969/announce
 
 http://ipv6.rer.lol:6969/announce
 
-https://threads.canofsocks.com:443/announce
-
 https://torrent.tracker.durukanbal.com:443/announce
+
+https://threads.canofsocks.com:443/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
@@ -356,9 +356,9 @@ udp://open.u-p.pw:6969/announce
 
 udp://epider.me:6969/announce
 
-https://bittorrent.service.gongt.me:59443/announce
-
 http://rfc5746.mywaifu.best:6969/announce
+
+https://bittorrent.service.gongt.me:59443/announce
 
 udp://open.tracker.cl:1337/announce
 
@@ -382,9 +382,9 @@ http://open.tracker.ink:6969/announce
 
 http://tracker.phoenix.lol:80/announce
 
-udp://open.demonoid.ch:6969/announce
-
 http://tracker.zhuqiy.dgj055.icu:80/announce
+
+udp://open.demonoid.ch:6969/announce
 
 http://tracker.skyts.net:6969/announce
 
