@@ -356,9 +356,9 @@ http://open.acgtracker.com:1096/announce
 
 udp://tk1.trackerservers.com:8080/announce
 
-http://tracker.enitin.xyz:80/announce
-
 https://tracker.bjut.jp:443/announce
+
+http://tracker.enitin.xyz:80/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
