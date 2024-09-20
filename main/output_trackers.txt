@@ -306,29 +306,19 @@ udp://z.mercax.com:53/announce
 
 wss://tracker.openwebtorrent.com:443/announce
 
-udp://tracker.dump.cl:6969/announce
-
 udp://tracker-udp.gbitt.info:80/announce
 
-udp://leet-tracker.moe:1337/announce
-
 udp://explodie.org:6969/announce
-
-http://tracker1.bt.moack.co.kr:80/announce
-
-udp://open.u-p.pw:6969/announce
-
-https://tracker.imgoingto.icu:443/announce
 
 http://tracker2.dler.org:80/announce
 
 http://tracker.edkj.club:6969/announce
 
-http://canardscitrons.nohost.me:6969/announce
-
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://tracker1.itzmx.com:8080/announce
+
+http://canardscitrons.nohost.me:6969/announce
 
 http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
@@ -336,9 +326,9 @@ udp://tr4ck3r.duckdns.org:6969/announce
 
 http://tracker.dump.cl:6969/announce
 
-http://isk.richardsw.club:6969/announce
-
 udp://d13bttrck.duckdns.org:6969/announce
+
+http://isk.richardsw.club:6969/announce
 
 udp://t.overflow.biz:6969/announce
 
@@ -354,9 +344,9 @@ https://mathkangaroo.jp:443/announce
 
 https://threads.canofsocks.com:443/announce
 
-https://torrent.tracker.durukanbal.com:443/announce
-
 udp://tracker.kmzs123.tk:17272/announce
+
+https://torrent.tracker.durukanbal.com:443/announce
 
 http://tracker.kmzs123.com:80/announce
 
@@ -373,6 +363,8 @@ udp://open.publictracker.xyz:6969/announce
 udp://new-line.net:6969/announce
 
 http://mc.itscraftsoftware.my.id:8804/announce
+
+udp://open.u-p.pw:6969/announce
 
 udp://ryjer.com:6969/announce
 
@@ -403,6 +395,8 @@ udp://tk1v6.trackerservers.com:8080/announce
 http://open.tracker.ink:6969/announce
 
 https://tracker.moeblog.cn:443/announce
+
+https://tracker.imgoingto.icu:443/announce
 
 http://region.nl1.privex.cc:6969/announce
 
@@ -1433,6 +1427,8 @@ http://156.234.201.18/announce
 http://61.216.109.95:6969/announce
 
 http://61.216.166.123:6969/announce
+
+http://tracker1.bt.moack.co.kr:80/announce
 
 http://bt.beatrice-raws.org/announce
 
