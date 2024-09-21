@@ -328,19 +328,19 @@ udp://d13bttrck.duckdns.org:6969/announce
 
 udp://t.overflow.biz:6969/announce
 
-http://tracker.dump.cl:6969/announce
-
-http://isk.richardsw.club:6969/announce
-
 http://open.acgtracker.com:1096/announce
 
-udp://tk1.trackerservers.com:8080/announce
+http://tracker.dump.cl:6969/announce
 
 https://threads.canofsocks.com:443/announce
 
-http://tracker.guguan.000.pe:80/announce
+http://isk.richardsw.club:6969/announce
+
+udp://tk1.trackerservers.com:8080/announce
 
 https://tracker.bjut.jp:443/announce
+
+http://tracker.guguan.000.pe:80/announce
 
 https://mathkangaroo.jp:443/announce
 
@@ -348,9 +348,9 @@ udp://tracker.kmzs123.tk:17272/announce
 
 http://tracker.enitin.xyz:80/announce
 
-https://tracker.kmzs123.top:443/announce
-
 https://torrent.tracker.durukanbal.com:443/announce
+
+https://tracker.kmzs123.top:443/announce
 
 http://tracker.1048576.cn:17272/announce
 
@@ -360,9 +360,9 @@ http://tracker.vraphim.com:6969/announce
 
 http://tracker.kmzs123.com:80/announce
 
-udp://tracker.kmzs123.cn:17272/announce
-
 udp://open.publictracker.xyz:6969/announce
+
+udp://tracker.kmzs123.cn:17272/announce
 
 http://mc.itscraftsoftware.my.id:8804/announce
 
@@ -370,9 +370,9 @@ udp://ryjer.com:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
-udp://epider.me:6969/announce
-
 udp://open.tracker.cl:1337/announce
+
+udp://epider.me:6969/announce
 
 http://t.acg.rip:6699/announce
 
@@ -2980,6 +2980,8 @@ udp://anidex.moe:6969/announce
 
 udp://bobbialbano.com:6969/announce
 
+udp://bt1.xxxxbt.cc:6969/announce
+
 udp://bttracker.debian.org:6969/announce
 
 udp://canardscitrons.nohost.me:6969/announce
@@ -2996,12 +2998,6 @@ udp://fosstorrents.com:6969/announce
 
 udp://home.kray.pw:6969/announce
 
-udp://home.yxgz.club:6969/announce
-
-udp://hzzwly.gq:6969/announce
-
-udp://i-p-v-6.tk:6969/announce
-
 udp://ipv4.tracker.harry.lu:6969/announce
 
 udp://ipv4announce.sktorrent.eu:6969/announce
@@ -3013,6 +3009,10 @@ udp://ipv6.govt.hu:6969/announce
 udp://ipv6.rer.lol:6969/announce
 
 udp://ipv6.tracker.harry.lu:6969/announce
+
+udp://isk.richardsw.club:6969/announce
+
+udp://jp.moeweb.pw:6969/announce
 
 udp://mail.lakameraobscura.com:6969/announce
 
@@ -3045,6 +3045,8 @@ udp://torrents.hikarinokiseki.com:6969/announce
 udp://torrenttracker.nwc.acsalaska.net:6969/announce
 
 udp://tracker.doko.moe:6969/announce
+
+udp://tracker.dump.cl:6969/announce
 
 udp://tracker.etree.org:6969/announce
 
