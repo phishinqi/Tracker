@@ -328,11 +328,11 @@ udp://tracker.kmzs123.cf:17272/announce
 
 https://trackers.run:443/announce
 
-https://tracker.uraniumhexafluori.de:443/announce
-
 udp://tracker.xor.st:6969/announce
 
 udp://t.overflow.biz:6969/announce
+
+https://tracker.uraniumhexafluori.de:443/announce
 
 udp://open.dstud.io:6969/announce
 
@@ -370,9 +370,9 @@ https://tracker.cangku.moe:443/announce
 
 http://t.acg.rip:6699/announce
 
-udp://open.tracker.cl:1337/announce
-
 http://wg.mortis.me:6969/announce
+
+udp://open.tracker.cl:1337/announce
 
 http://tracker.1048576.cn:17272/announce
 
@@ -408,15 +408,11 @@ http://tracker.skyts.net:6969/announce
 
 http://0205.uptm.ch:6969/announce
 
+udp://retracker.lanta.me:2710/announce
+
 http://tracker-rh.zhuqiy.eu.org:80/announce
 
-http://region.nl1.privex.cc:6969/announce
-
-https://track.solcloud.eu:443/announce
-
 udp://lopatins.ru:5972/announce
-
-udp://retracker.lanta.me:2710/announce
 
 http://t.nyaatracker.com:80/announce
 
@@ -665,6 +661,8 @@ udp://nullzone.fr:6969/announce
 udp://ssb14.nohost.me:6969/announce
 
 http://thitgaluoc.dynu.net:6969/announce
+
+http://region.nl1.privex.cc:6969/announce
 
 udp://dmitrynegoda.com:6969/announce
 
@@ -935,6 +933,8 @@ https://bittorrent.service.gongt.me:59443/announce
 http://0x7c.space:7070/announce
 
 udp://dataforai.com:31332/announce
+
+https://track.solcloud.eu:443/announce
 
 http://tracker.gbitt.info/announce
 
