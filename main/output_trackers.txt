@@ -324,17 +324,17 @@ udp://u4.trakx.crim.ist:1337/announce
 
 udp://tk1.trackerservers.com:8080/announce
 
-http://tracker.enitin.xyz:80/announce
-
 udp://tracker.kmzs123.tk:17272/announce
+
+http://tracker.enitin.xyz:80/announce
 
 http://tracker.auctor.tv:6969/announce
 
 http://rfc5746.mywaifu.best:6969/announce
 
-http://t1.aag.moe:17715/announce
-
 udp://tracker.kmzs123.cf:17272/announce
+
+http://t1.aag.moe:17715/announce
 
 https://trackers.run:443/announce
 
@@ -382,11 +382,11 @@ http://wg.mortis.me:6969/announce
 
 udp://open.tracker.cl:1337/announce
 
-http://tracker.1048576.cn:17272/announce
-
 udp://www.2600.com:6969/announce
 
 udp://freedomalternative.com:6969/announce
+
+http://tracker.1048576.cn:17272/announce
 
 http://tracker.pcfreetime.com:6969/announce
 
