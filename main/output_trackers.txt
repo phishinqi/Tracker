@@ -290,43 +290,43 @@ https://jvavav.com:443/announce
 
 http://tracker1.itzmx.com:8080/announce
 
-udp://d13bttrck.duckdns.org:6969/announce
-
 udp://u4.trakx.crim.ist:1337/announce
-
-https://threads.canofsocks.com:443/announce
 
 http://tracker.enitin.xyz:80/announce
 
-udp://tk1.trackerservers.com:8080/announce
+udp://d13bttrck.duckdns.org:6969/announce
+
+https://threads.canofsocks.com:443/announce
 
 udp://tracker.kmzs123.cf:17272/announce
 
-https://api.ipv4online.uk:443/announce
+udp://tk1.trackerservers.com:8080/announce
 
 http://tr1.aag.moe:2095/announce
+
+https://api.ipv4online.uk:443/announce
 
 udp://tracker.kmzs123.tk:17272/announce
 
 https://tracker.bjut.jp:443/announce
 
-https://mathkangaroo.jp:443/announce
-
 https://tracker.itscraftsoftware.my.id:443/announce
-
-https://www.peckservers.com:9000/announce
-
-http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://tracker.kmzs123.com:17272/announce
 
+https://mathkangaroo.jp:443/announce
+
+http://ipv4announce.sktorrent.eu:6969/announce
+
+https://www.peckservers.com:9000/announce
+
 http://rfc5746.mywaifu.best:6969/announce
+
+https://torrent.tracker.durukanbal.com:443/announce
 
 udp://t.overflow.biz:6969/announce
 
 udp://tracker.home.kmzs123.cn:17272/announce
-
-https://torrent.tracker.durukanbal.com:443/announce
 
 http://t1.aag.moe:17715/announce
 
@@ -340,9 +340,9 @@ http://tracker.vraphim.com:6969/announce
 
 https://tracker.uraniumhexafluori.de:443/announce
 
-udp://amigacity.xyz:6969/announce
-
 udp://ismaarino.com:1234/announce
+
+udp://amigacity.xyz:6969/announce
 
 udp://tamas3.ynh.fr:6969/announce
 
@@ -360,9 +360,9 @@ udp://tracker.kmzs123.top:17272/announce
 
 http://t.acg.rip:6699/announce
 
-http://tracker.ismaarino.com:8880/announce
-
 udp://ns1.monolithindustries.com:6969/announce
+
+http://tracker.ismaarino.com:8880/announce
 
 http://tracker.pcfreetime.com:6969/announce
 
@@ -396,9 +396,9 @@ http://tracker.zhuqiy.dgj055.icu:80/announce
 
 udp://ftp.pet:2710/announce
 
-udp://open.tracker.cl:1337/announce
-
 http://tracker.skyts.net:6969/announce
+
+udp://open.tracker.cl:1337/announce
 
 http://0205.uptm.ch:6969/announce
 
