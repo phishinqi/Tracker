@@ -402,13 +402,13 @@ http://tracker.zhuqiy.dgj055.icu:80/announce
 
 http://tracker.ismaarino.com:8880/announce
 
-udp://tracker.kmzs123.com:17272/announce
-
 https://tracker.imgoingto.icu:443/announce
 
 udp://ftp.pet:2710/announce
 
 http://tracker.skyts.net:6969/announce
+
+udp://tracker.kmzs123.com:17272/announce
 
 http://0205.uptm.ch:6969/announce
 
@@ -2698,6 +2698,8 @@ http://big-boss-tracker.net:80/announce
 
 http://bithq.org:80/announce
 
+http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+
 http://blackz.ro:80/announce
 
 http://bluebird-hd.org:80/announce
@@ -3003,6 +3005,8 @@ udp://open.stealth.si:6969/announce
 udp://parag.rs:6969/announce
 
 udp://region.nl1.privex.cc:6969/announce
+
+udp://rfc5746.mywaifu.best:6969/announce
 
 udp://shogiroom.com:6969/announce
 
