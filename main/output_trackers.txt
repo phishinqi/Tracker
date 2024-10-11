@@ -312,9 +312,9 @@ http://tracker1.itzmx.com:8080/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
 
-udp://d13bttrck.duckdns.org:6969/announce
-
 https://sparkle.ghostchu-services.top:443/announce
+
+udp://d13bttrck.duckdns.org:6969/announce
 
 udp://tracker.kmzs123.tk:17272/announce
 
@@ -356,17 +356,17 @@ http://jvavav.com:80/announce
 
 http://smurfsoft.com:6969/announce
 
-udp://open.xxtor.com:3074/announce
-
 http://tracker.vraphim.com:6969/announce
+
+udp://open.xxtor.com:3074/announce
 
 http://t1.aag.moe:17715/announce
 
 udp://tracker.farted.net:6969/announce
 
-https://p4p.arenabg.com:1337/announce
-
 https://tracker.cangku.moe:443/announce
+
+https://p4p.arenabg.com:1337/announce
 
 http://canardscitrons.nohost.me:6969/announce
 
@@ -378,9 +378,9 @@ https://trackers.run:443/announce
 
 udp://amigacity.xyz:6969/announce
 
-udp://www.2600.com:6969/announce
-
 udp://tk1v6.trackerservers.com:8080/announce
+
+udp://www.2600.com:6969/announce
 
 http://tracker.ipv6tracker.ru:80/announce
 
@@ -400,11 +400,11 @@ http://tracker.ismaarino.com:8880/announce
 
 http://tracker.skyts.net:6969/announce
 
+https://tracker.imgoingto.icu:443/announce
+
 udp://ftp.pet:2710/announce
 
 http://tracker.guguan.000.pe:80/announce
-
-https://tracker.imgoingto.icu:443/announce
 
 http://0205.uptm.ch:6969/announce
 
@@ -617,8 +617,6 @@ https://tracker.jiesen.life:8443/announce
 udp://cloud.samtechnic.ir:6969/announce
 
 udp://t.zerg.pw:1337/announce
-
-udp://cloud.arzanmodern.ir:6969/announce
 
 http://tracker-sanopiracy.hopto.org:9123/announce
 
@@ -2969,6 +2967,8 @@ udp://canardscitrons.nohost.me:6969/announce
 udp://caramelo.ddns.net:8000/announce
 
 udp://ch3oh.ru:6969/announce
+
+udp://cloud.arzanmodern.ir:6969/announce
 
 udp://cn.pcfreetime.com:6969/announce
 
