@@ -288,29 +288,19 @@ wss://tracker.openwebtorrent.com:443/announce
 
 udp://explodie.org:6969/announce
 
-udp://tracker1.bt.moack.co.kr:80/announce
-
 udp://tracker-udp.gbitt.info:80/announce
 
 http://tracker1.bt.moack.co.kr:80/announce
 
-udp://tracker1.myporn.club:9337/announce
-
-udp://public.tracker.vraphim.com:6969/announce
-
-udp://bt.ktrackers.com:6666/announce
-
-udp://tracker.qu.ax:6969/announce
-
-udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
-
-http://t.overflow.biz:6969/announce
+http://tracker.skyts.net:6969/announce
 
 http://open.acgtracker.com:1096/announce
 
-http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 http://tracker1.itzmx.com:8080/announce
+
+http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
@@ -324,9 +314,9 @@ udp://bt1.archive.org:6969/announce
 
 https://threads.canofsocks.com:443/announce
 
-udp://bt2.archive.org:6969/announce
-
 https://tracker.bjut.jp:443/announce
+
+udp://bt2.archive.org:6969/announce
 
 https://api.ipv4online.uk:443/announce
 
@@ -334,9 +324,9 @@ https://mathkangaroo.jp:443/announce
 
 udp://tracker.home.kmzs123.cn:17272/announce
 
-http://ipv4announce.sktorrent.eu:6969/announce
-
 udp://ns1.monolithindustries.com:6969/announce
+
+http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://ismaarino.com:1234/announce
 
@@ -352,13 +342,15 @@ https://tracker.uraniumhexafluori.de:443/announce
 
 http://cn.pcfreetime.com:6969/announce
 
-http://rfc5746.mywaifu.best:6969/announce
-
 http://smurfsoft.com:6969/announce
+
+http://rfc5746.mywaifu.best:6969/announce
 
 http://tracker.k.vu:6969/announce
 
 http://jvavav.com:80/announce
+
+udp://tracker1.myporn.club:9337/announce
 
 http://tracker.vraphim.com:6969/announce
 
@@ -366,15 +358,19 @@ http://t1.aag.moe:17715/announce
 
 udp://tracker.farted.net:6969/announce
 
+udp://tracker.kmzs123.cn:17272/announce
+
 https://tracker.cangku.moe:443/announce
 
 https://p4p.arenabg.com:1337/announce
 
-udp://tracker.kmzs123.cn:17272/announce
-
-udp://open.xxtor.com:3074/announce
+udp://bt.ktrackers.com:6666/announce
 
 http://canardscitrons.nohost.me:6969/announce
+
+udp://tracker1.bt.moack.co.kr:80/announce
+
+udp://open.xxtor.com:3074/announce
 
 http://tracker.pcfreetime.com:6969/announce
 
@@ -398,11 +394,9 @@ udp://tamas3.ynh.fr:6969/announce
 
 http://tracker.zhuqiy.dgj055.icu:80/announce
 
-udp://tracker-us.silksa.co.za:6969/announce
-
-http://tracker.skyts.net:6969/announce
-
 http://tracker.ismaarino.com:8880/announce
+
+udp://tracker-us.silksa.co.za:6969/announce
 
 https://tracker.imgoingto.icu:443/announce
 
@@ -625,6 +619,8 @@ udp://tracker.trojangogogo.site:8080/announce
 udp://oh.fuuuuuck.com:6969/announce
 
 udp://ipv6.fuuuuuck.com:6969/announce
+
+udp://tracker.qu.ax:6969/announce
 
 http://leidenfro.st:6969/announce
 
@@ -1296,6 +1292,8 @@ https://opentracker.xyz:443/announce
 
 udp://rutorrent.frontline-mod.com:6969/announce
 
+http://t.overflow.biz:6969/announce
+
 http://tracker.dmcomic.org:2710/announce
 
 http://tracker.tfile.me:80/announce
@@ -1453,6 +1451,8 @@ http://34.89.30.59:2710/announce
 http://212.6.3.67/announce
 
 http://185.70.187.79:6969/announce
+
+udp://public.tracker.vraphim.com:6969/announce
 
 http://185.185.40.95:6969/announce
 
@@ -2970,8 +2970,6 @@ udp://caramelo.ddns.net:8000/announce
 
 udp://ch3oh.ru:6969/announce
 
-udp://cloud.arzanmodern.ir:6969/announce
-
 udp://cn.pcfreetime.com:6969/announce
 
 udp://debuz.com:6969/announce
@@ -3006,6 +3004,8 @@ udp://parag.rs:6969/announce
 
 udp://region.nl1.privex.cc:6969/announce
 
+udp://rfc5746.mywaifu.best:6969/announce
+
 udp://shogiroom.com:6969/announce
 
 udp://smurfsoft.com:6969/announce
@@ -3017,6 +3017,8 @@ udp://t.publictracker.xyz:6969/announce
 udp://taciturn-shadow.spb.ru:6969/announce
 
 udp://torrent.fedoraproject.org:6969/announce
+
+udp://torrent.hificode.in:6969/announce
 
 udp://torrent.ubuntu.com:6969/announce
 
@@ -3043,6 +3045,8 @@ udp://tracker.pcfreetime.com:6969/announce
 udp://tracker.sheesh.rip:6969/announce
 
 udp://tracker.vanitycore.co:6969/announce
+
+udp://tracker.vraphim.com:6969/announce
 
 udp://tracker.vrpnet.org:6969/announce
 
