@@ -14,8 +14,6 @@ http://nyaa.tracker.wf:7777/announce
 
 http://open.tracker.ink:6969/announce
 
-http://p2p.azu.red:80/announce
-
 http://public.tracker.vraphim.com:6969/announce
 
 http://retracker.hotplug.ru:2710/announce
@@ -56,6 +54,8 @@ http://tracker.opentrackr.org:1337/announce
 
 http://tracker.peckservers.com:9000/announce
 
+http://tracker.qu.ax:6969/announce
+
 http://tracker.renfei.net:8080/announce
 
 http://tracker.skyts.net:6969/announce
@@ -78,11 +78,11 @@ http://www.wareztorrent.com:80/announce
 
 https://1337.abcvg.info:443/announce
 
+https://p2p.azu.red:443/announce
+
 https://retracker.x2k.ru:443/announce
 
 https://sparkle.ghostchu-services.top:443/announce
-
-https://torrent.tracker.durukanbal.com:443/announce
 
 https://tr.abir.ga:443/announce
 
@@ -206,7 +206,11 @@ udp://seedpeer.net:6969/announce
 
 udp://serpb.vpsburti.com:6969/announce
 
+udp://tk2v6.trackerservers.com:8080/announce
+
 udp://torrents.artixlinux.org:6969/announce
+
+udp://tr4ck3r.duckdns.org:6969/announce
 
 udp://trackarr.org:6969/announce
 
@@ -262,8 +266,6 @@ udp://tracker.tiny-vps.com:6969/announce
 
 udp://tracker.torrent.eu.org:451/announce
 
-udp://tracker.torrust-demo.com:6969/announce
-
 udp://tracker.tryhackx.org:6969/announce
 
 udp://tracker.vds.nz:6969/announce
@@ -298,17 +300,11 @@ wss://tracker.openwebtorrent.com:443/announce
 
 udp://explodie.org:6969/announce
 
-udp://tracker.theoks.net:6969/announce
-
 udp://tracker-udp.gbitt.info:80/announce
 
 http://tracker1.bt.moack.co.kr:80/announce
 
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
-
-https://pybittrack.retiolus.net:443/announce
-
-http://tracker.qu.ax:6969/announce
 
 http://open.acgtracker.com:1096/announce
 
@@ -318,11 +314,13 @@ http://tracker1.itzmx.com:8080/announce
 
 http://canardscitrons.nohost.me:6969/announce
 
-udp://tr4ck3r.duckdns.org:6969/announce
+udp://tracker.torrust-demo.com:6969/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
 udp://tk1.trackerservers.com:8080/announce
+
+https://torrent.tracker.durukanbal.com:443/announce
 
 udp://tracker.kmzs123.cf:17272/announce
 
@@ -334,9 +332,9 @@ https://api.ipv4online.uk:443/announce
 
 https://mathkangaroo.jp:443/announce
 
-https://threads.canofsocks.com:443/announce
-
 http://smurfsoft.com:6969/announce
+
+https://threads.canofsocks.com:443/announce
 
 udp://tracker.home.kmzs123.cn:17272/announce
 
@@ -348,13 +346,15 @@ http://ipv4announce.sktorrent.eu:6969/announce
 
 udp://tracker.xor.st:6969/announce
 
-udp://tracker.kmzs123.tk:17272/announce
-
-udp://bt1.archive.org:6969/announce
+https://pybittrack.retiolus.net:443/announce
 
 http://cn.pcfreetime.com:6969/announce
 
+udp://bt1.archive.org:6969/announce
+
 udp://bt2.archive.org:6969/announce
+
+udp://tracker.kmzs123.tk:17272/announce
 
 http://tracker.vraphim.com:6969/announce
 
@@ -374,6 +374,8 @@ http://jvavav.com:80/announce
 
 http://t1.aag.moe:17715/announce
 
+udp://tracker.theoks.net:6969/announce
+
 https://tracker.cangku.moe:443/announce
 
 udp://tracker.farted.net:6969/announce
@@ -390,11 +392,11 @@ http://tracker.ipv6tracker.ru:80/announce
 
 udp://free.publictracker.xyz:6969/announce
 
-https://trackers.run:443/announce
-
 http://region.nl1.privex.cc:6969/announce
 
 http://tracker.zhuqiy.dgj055.icu:80/announce
+
+https://trackers.run:443/announce
 
 udp://tracker-us.silksa.co.za:6969/announce
 
@@ -500,8 +502,6 @@ http://incine.ru:6969/announce
 
 http://mail.lakameraobscura.com:6969/announce
 
-http://debuz.com:6969/announce
-
 http://147job.com:6969/announce
 
 udp://thouvenin.cloud:6969/announce
@@ -603,8 +603,6 @@ https://tracker.mlsub.net:443/announce
 http://montreal.nyap2p.com:8080/announce
 
 http://tracker.aibt.xyz:900/announce
-
-http://dht.dhtclub.com:666/announce
 
 udp://chihaya.de:6969/announce
 
@@ -2220,6 +2218,8 @@ http://83.6.232.23:6969/announce
 
 http://97.117.101.163:9000/announce
 
+http://dht.dhtclub.com:666/announce
+
 http://192.9.228.30:6699/announce
 
 http://83.6.211.179:6969/announce
@@ -2233,6 +2233,8 @@ http://tracker.shittyurl.org:80/announce
 https://tracker.shittyurl.org:443/announce
 
 https://tracker.shittyurl.org/announce
+
+http://debuz.com:6969/announce
 
 http://45.154.253.9/announce
 
@@ -2743,6 +2745,8 @@ http://open.miotracker.com:80/announce
 http://open.stealth.si:80/announce
 
 http://open.touki.ru:80/announce
+
+http://p2p.azu.red:80/announce
 
 http://proaudiotorrents.org:80/announce
 
