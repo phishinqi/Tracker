@@ -290,9 +290,15 @@ udp://z.mercax.com:53/announce
 
 wss://tracker.openwebtorrent.com:443/announce
 
+udp://explodie.org:6969/announce
+
 udp://tracker-udp.gbitt.info:80/announce
 
-udp://explodie.org:6969/announce
+udp://new-line.net:6969/announce
+
+udp://tracker.qu.ax:6969/announce
+
+udp://tracker.ccp.ovh:6969/announce
 
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
@@ -306,17 +312,19 @@ http://open.acgtracker.com:1096/announce
 
 http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
+udp://tracker.ddunlimited.net:6969/announce
+
 http://tracker1.itzmx.com:8080/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
+udp://tracker.kmzs123.cf:17272/announce
+
 udp://tk1.trackerservers.com:8080/announce
 
 https://tr2.trkb.ru:443/announce
-
-udp://tracker.kmzs123.cf:17272/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
@@ -328,17 +336,17 @@ udp://tk2.trackerservers.com:8080/announce
 
 https://mathkangaroo.jp:443/announce
 
-https://threads.canofsocks.com:443/announce
-
 udp://tracker.xor.st:6969/announce
+
+https://threads.canofsocks.com:443/announce
 
 https://torrent.tracker.durukanbal.com:443/announce
 
 udp://tracker.home.kmzs123.cn:17272/announce
 
-udp://tracker.cloaka.xyz:1337/announce
-
 udp://ismaarino.com:1234/announce
+
+udp://tracker.cloaka.xyz:1337/announce
 
 http://ipv4announce.sktorrent.eu:6969/announce
 
@@ -346,15 +354,13 @@ udp://t.overflow.biz:6969/announce
 
 udp://tracker.vds.nz:6969/announce
 
-udp://new-line.net:6969/announce
-
 http://tracker.vraphim.com:6969/announce
 
 https://tracker.uraniumhexafluori.de:443/announce
 
-udp://cq.kmzs123.cn:17272/announce
-
 http://rfc5746.mywaifu.best:6969/announce
+
+udp://cq.kmzs123.cn:17272/announce
 
 udp://bt2.archive.org:6969/announce
 
@@ -362,15 +368,13 @@ udp://bt1.archive.org:6969/announce
 
 http://tracker.enitin.xyz:80/announce
 
-udp://tracker.ccp.ovh:6969/announce
+udp://tracker.kmzs123.cn:17272/announce
 
 http://cn.pcfreetime.com:6969/announce
 
-udp://tracker.kmzs123.cn:17272/announce
+http://t1.aag.moe:17715/announce
 
 http://tracker.k.vu:6969/announce
-
-http://t1.aag.moe:17715/announce
 
 https://tracker.cangku.moe:443/announce
 
@@ -393,8 +397,6 @@ https://p4p.arenabg.com:1337/announce
 udp://tracker-us.silksa.co.za:6969/announce
 
 udp://free.publictracker.xyz:6969/announce
-
-udp://tracker.qu.ax:6969/announce
 
 http://tracker.zhuqiy.dgj055.icu:80/announce
 
@@ -1373,8 +1375,6 @@ http://fe.dealclub.de:6969/announce
 http://tracker.tiny-vps.com:6969/announce
 
 http://buny.uk:6969/announce
-
-udp://tracker.ddunlimited.net:6969/announce
 
 http://retracker.joxnet.ru/announce
 
