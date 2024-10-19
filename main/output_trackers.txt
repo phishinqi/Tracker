@@ -320,9 +320,9 @@ http://tracker1.itzmx.com:8080/announce
 
 https://retracker.x2k.ru:443/announce
 
-http://smurfsoft.com:6969/announce
-
 udp://tracker.torrust-demo.com:6969/announce
+
+http://smurfsoft.com:6969/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
@@ -330,9 +330,9 @@ udp://tk1.trackerservers.com:8080/announce
 
 https://tr2.trkb.ru:443/announce
 
-https://api.ipv4online.uk:443/announce
-
 https://tracker.bjut.jp:443/announce
+
+https://api.ipv4online.uk:443/announce
 
 https://mathkangaroo.jp:443/announce
 
@@ -354,9 +354,9 @@ udp://tracker.vds.nz:6969/announce
 
 udp://cq.kmzs123.cn:17272/announce
 
-udp://tracker.cloaka.xyz:1337/announce
-
 http://tracker.vraphim.com:6969/announce
+
+udp://tracker.cloaka.xyz:1337/announce
 
 udp://new-line.net:6969/announce
 
