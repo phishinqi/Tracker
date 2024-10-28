@@ -280,13 +280,21 @@ udp://z.mercax.com:53/announce
 
 wss://tracker.openwebtorrent.com:443/announce
 
-udp://tracker-udp.gbitt.info:80/announce
-
 udp://explodie.org:6969/announce
+
+udp://tracker-udp.gbitt.info:80/announce
 
 http://tracker.skyts.net:6969/announce
 
 http://open.tracker.ink:6969/announce
+
+http://tracker1.bt.moack.co.kr:80/announce
+
+udp://tracker.qu.ax:6969/announce
+
+https://pybittrack.retiolus.net:443/announce
+
+http://tracker.waaa.moe:6969/announce
 
 http://tracker.mywaifu.best:6969/announce
 
@@ -306,13 +314,13 @@ udp://tk1.trackerservers.com:8080/announce
 
 https://api.ipv4online.uk:443/announce
 
-udp://tracker.xor.st:6969/announce
-
 https://tracker.bjut.jp:443/announce
 
 https://mathkangaroo.jp:443/announce
 
 https://tr2.trkb.ru:443/announce
+
+udp://tracker.xor.st:6969/announce
 
 udp://tracker.waaa.moe:6969/announce
 
@@ -322,23 +330,21 @@ udp://tk2.trackerservers.com:8080/announce
 
 udp://ismaarino.com:1234/announce
 
-udp://tracker.skynetcloud.site:6969/announce
-
 https://threads.canofsocks.com:443/announce
+
+udp://tracker.skynetcloud.site:6969/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
 http://tracker.bittor.pw:1337/announce
 
-https://pybittrack.retiolus.net:443/announce
-
 udp://cq.kmzs123.cn:17272/announce
 
 http://rfc5746.mywaifu.best:6969/announce
 
-https://torrent.tracker.durukanbal.com:443/announce
-
 udp://tracker-us.silksa.co.za:6969/announce
+
+https://torrent.tracker.durukanbal.com:443/announce
 
 http://tracker.enitin.xyz:80/announce
 
@@ -347,8 +353,6 @@ http://tracker.files.fm:6969/announce
 http://smurfsoft.com:6969/announce
 
 udp://tracker1.myporn.club:9337/announce
-
-udp://tracker.qu.ax:6969/announce
 
 udp://bt.ktrackers.com:6666/announce
 
@@ -378,9 +382,9 @@ http://t1.aag.moe:17715/announce
 
 udp://bt1.archive.org:6969/announce
 
-udp://free.publictracker.xyz:6969/announce
-
 http://cn.pcfreetime.com:6969/announce
+
+udp://free.publictracker.xyz:6969/announce
 
 http://tracker.pcfreetime.com:6969/announce
 
@@ -1385,8 +1389,6 @@ http://156.234.201.18/announce
 http://61.216.109.95:6969/announce
 
 http://61.216.166.123:6969/announce
-
-http://tracker1.bt.moack.co.kr:80/announce
 
 http://bt.beatrice-raws.org/announce
 
