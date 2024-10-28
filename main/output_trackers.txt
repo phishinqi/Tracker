@@ -278,13 +278,23 @@ udp://z.mercax.com:53/announce
 
 wss://tracker.openwebtorrent.com:443/announce
 
-udp://tracker-udp.gbitt.info:80/announce
+http://tracker.opentrackr.org:1337/announce
 
 udp://explodie.org:6969/announce
+
+udp://tracker-udp.gbitt.info:80/announce
 
 http://tracker.skyts.net:6969/announce
 
 http://open.tracker.ink:6969/announce
+
+http://tracker1.bt.moack.co.kr:80/announce
+
+udp://tracker.qu.ax:6969/announce
+
+https://pybittrack.retiolus.net:443/announce
+
+http://tracker.waaa.moe:6969/announce
 
 http://tracker.mywaifu.best:6969/announce
 
@@ -296,9 +306,9 @@ http://tracker1.itzmx.com:8080/announce
 
 udp://tr4ck3r.duckdns.org:6969/announce
 
-https://retracker.x2k.ru:443/announce
-
 udp://u6.trakx.crim.ist:1337/announce
+
+https://retracker.x2k.ru:443/announce
 
 udp://tk1.trackerservers.com:8080/announce
 
@@ -310,25 +320,23 @@ https://mathkangaroo.jp:443/announce
 
 https://tr2.trkb.ru:443/announce
 
-udp://tracker.xor.st:6969/announce
-
 udp://tr3.ysagin.top:2715/announce
-
-udp://tracker.waaa.moe:6969/announce
-
-udp://tk2.trackerservers.com:8080/announce
 
 udp://ismaarino.com:1234/announce
 
-https://threads.canofsocks.com:443/announce
+udp://tracker.xor.st:6969/announce
 
-udp://tracker.skynetcloud.site:6969/announce
+udp://tk2.trackerservers.com:8080/announce
+
+udp://tracker.waaa.moe:6969/announce
+
+https://threads.canofsocks.com:443/announce
 
 udp://d13bttrck.duckdns.org:6969/announce
 
 http://tracker.bittor.pw:1337/announce
 
-https://pybittrack.retiolus.net:443/announce
+udp://tracker.skynetcloud.site:6969/announce
 
 udp://cq.kmzs123.cn:17272/announce
 
@@ -342,23 +350,21 @@ http://tracker.files.fm:6969/announce
 
 http://smurfsoft.com:6969/announce
 
-udp://tracker.qu.ax:6969/announce
-
 udp://tracker1.myporn.club:9337/announce
-
-https://torrent.tracker.durukanbal.com:443/announce
 
 udp://bt.ktrackers.com:6666/announce
 
 udp://open.u-p.pw:6969/announce
 
-https://tracker.jobser.eu:443/announce
+https://torrent.tracker.durukanbal.com:443/announce
 
 udp://tk1v6.trackerservers.com:8080/announce
 
-udp://tracker.vds.nz:6969/announce
+https://tracker.jobser.eu:443/announce
 
 udp://new-line.net:6969/announce
+
+udp://tracker.vds.nz:6969/announce
 
 udp://tracker.cloaka.xyz:1337/announce
 
@@ -1268,8 +1274,6 @@ http://opentracker.xyz:80/announce
 
 udp://yahor.ftp.sh:6969/announce
 
-http://tracker.opentrackr.org:1337/announce
-
 https://opentracker.xyz/announce
 
 http://fxtt.ru:80/announce
@@ -1385,8 +1389,6 @@ http://156.234.201.18/announce
 http://61.216.109.95:6969/announce
 
 http://61.216.166.123:6969/announce
-
-http://tracker1.bt.moack.co.kr:80/announce
 
 http://bt.beatrice-raws.org/announce
 
