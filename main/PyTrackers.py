@@ -1,11 +1,9 @@
 import asyncio
 import aiohttp
-import aiologger
-import os
+from aiologger import Logger
 
-# 配置aiologger
-aiologger.setup()
-logger = aiologger.getLogger('my_async_logger')
+# 创建一个异步日志记录器
+logger = Logger.with_default_handlers(name='my_async_logger')
 
 async def download_main_url():
     # 假设这个函数是异步下载main_url.txt文件
@@ -64,11 +62,12 @@ def remove_duplicates(input_file, output_file):
 async def main():
     await download_main_url()
     urls = read_urls()
-    trackers_file_path = os.path.join(os.getcwd(), 'trackers.txt')
+    trackers_file_path = 'trackers.txt'
     prepare_trackers_file(trackers_file_path)
     async with aiohttp.ClientSession() as session:
         await fetch_and_write_trackers(session, urls, trackers_file_path)
     remove_duplicates('./trackers.txt', './output_trackers.txt')
+    await logger.shutdown()
 
 # 运行主函数
 asyncio.run(main())
