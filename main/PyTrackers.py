@@ -90,13 +90,20 @@ async def remove_duplicates(input_file, output_file):
     try:
         async with aiofiles.open(input_file, 'r', encoding='utf-8') as f_read:
             async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write:
+                processed_lines = 0
                 async for line in f_read:
+                    processed_lines += 1
                     stripped_line = line.strip()
                     if stripped_line and stripped_line not in seen:
                         seen.add(stripped_line)
                         await f_write.write(stripped_line + '\n')
-
+                    if processed_lines % 1000 == 0:
+                        logger.info(f"已处理 {processed_lines} 行")
+                        
         logger.info("去重完成。")
+        
+    except (FileNotFoundError, PermissionError) as e:
+        logger.error(f"文件处理错误: {e}")
     except Exception as e:
         logger.error(f"去重过程中发生错误: {e}")
 
