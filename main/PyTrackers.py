@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 import os
 from aiologger import Logger
-from aiotqdm import async_tqdm
+from tqdm import tqdm
 import aiofiles
 
 # 定义常量
@@ -60,7 +60,7 @@ async def prepare_trackers_file(file_name):
     async with aiofiles.open(file_name, 'w', encoding='utf-8') as f:
         await f.write("")  # 创建空文件
 
-async def fetch_tracker(session, url, f_write):
+async def fetch_tracker(session, url, f_write, progress_bar):
     try:
         async with session.get(url) as response:
             response.raise_for_status()
@@ -74,12 +74,15 @@ async def fetch_tracker(session, url, f_write):
         logger.error(f"下载 {url} 时被取消。")
     except Exception as e:
         logger.error(f"下载 {url} 时发生未知错误: {e}")
+    finally:
+        progress_bar.update(1)  # 更新进度条
 
 async def fetch_and_write_trackers(session, urls, output_file):
     logger.info("正在下载 trackers...")
     async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
-        tasks = [fetch_tracker(session, url, f_write) for url in urls]
-        await async_tqdm.gather(*tasks, total=len(tasks), desc="下载中", unit="个")
+        with tqdm(total=len(urls), desc="下载中", unit="个") as progress_bar:
+            tasks = [fetch_tracker(session, url, f_write, progress_bar) for url in urls]
+            await asyncio.gather(*tasks)
 
 async def remove_duplicates(input_file, output_file):
     logger.info("正在去重...")
