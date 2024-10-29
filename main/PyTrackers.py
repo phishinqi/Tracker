@@ -5,6 +5,7 @@ from aiologger import Logger
 from tqdm import tqdm
 import aiofiles
 import time
+from urllib.parse import urlparse
 
 # 定义常量
 MAIN_URL_FILE = 'main_url.txt'
@@ -14,8 +15,17 @@ MAIN_URL = "https://raw.githubusercontent.com/phishinqi/phishinqi.github.io/refs
 
 logger = Logger.with_default_handlers(name='my_async_logger')
 
+def is_valid_url(url):
+    """检查 URL 是否有效"""
+    parsed = urlparse(url)
+    return all([parsed.scheme, parsed.netloc])
+
 async def download_main_url():
-    """下载主 URL 文件，如果已存在则跳过。"""
+    """下载主 URL 文件，如果已存在则跳过，并检查 URL 格式"""
+    if not is_valid_url(MAIN_URL):
+        logger.error(f"无效的 URL {MAIN_URL}，请检查。")
+        return
+
     if os.path.exists(MAIN_URL_FILE):
         logger.info(f"{MAIN_URL_FILE} 文件已存在，跳过下载。")
         return
@@ -24,7 +34,7 @@ async def download_main_url():
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(MAIN_URL) as response:
-                response.raise_for_status()
+                response.raise_for_status()  # 检查响应状态
                 content = await response.text()
 
         async with aiofiles.open(MAIN_URL_FILE, 'w', encoding='utf-8') as f:
@@ -32,10 +42,10 @@ async def download_main_url():
         
         logger.info(f"{MAIN_URL_FILE} 文件下载完成。")
     except aiohttp.ClientError as e:
-        logger.error(f"下载 {MAIN_URL_FILE} 时发生网络错误: {e}")
+        logger.error(f"下载 {MAIN_URL} 时发生网络错误: {e}")
 
 async def read_urls():
-    """读取 URL 列表。"""
+    """读取 URL 列表"""
     if not os.path.exists(MAIN_URL_FILE):
         logger.error(f"{MAIN_URL_FILE} 文件不存在！")
         return []
@@ -45,7 +55,7 @@ async def read_urls():
     return [url.strip() for url in urls if url.strip()]
 
 async def prepare_trackers_file(file_name):
-    """准备 trackers 文件，删除旧文件（如果存在）并创建新文件。"""
+    """准备 trackers 文件，删除旧文件（如果存在）并创建新文件"""
     if os.path.exists(file_name):
         os.remove(file_name)
         logger.info(f"已删除旧的 {file_name} 文件。")
@@ -54,20 +64,25 @@ async def prepare_trackers_file(file_name):
         await f.write("")  # 创建空文件
 
 async def fetch_and_write_trackers(session, urls, output_file):
-    """异步下载 trackers 并写入文件。"""
+    """异步下载 trackers 并写入文件"""
     logger.info("正在下载 trackers...")
+    contents = []
+    
+    for url in tqdm(urls, desc="下载中", unit="个"):
+        try:
+            async with session.get(url) as response:
+                response.raise_for_status()
+                content = await response.text()
+                contents.append(content)
+        except aiohttp.ClientError as e:
+            logger.error(f"下载 {url} 时发生网络错误: {e}")
+    
+    # 一次性写入下载的内容
     async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
-        for url in tqdm(urls, desc="下载中", unit="个"):
-            try:
-                async with session.get(url) as response:
-                    response.raise_for_status()
-                    content = await response.text()
-                    await f_write.write(content + '\n')
-            except aiohttp.ClientError as e:
-                logger.error(f"下载 {url} 时发生网络错误: {e}")
+        await f_write.write('\n'.join(contents) + '\n')
 
 async def remove_duplicates(input_file, output_file):
-    """从输入文件中移除重复行并写入输出文件。"""
+    """从输入文件中移除重复行并写入输出文件"""
     logger.info("正在去重...")
     seen = set()
 
@@ -87,7 +102,7 @@ async def remove_duplicates(input_file, output_file):
         logger.error(f"去重过程中发生其他错误: {e}")
 
 async def main():
-    """主程序执行入口。"""
+    """主程序执行入口"""
     await download_main_url()
     urls = await read_urls()
     
