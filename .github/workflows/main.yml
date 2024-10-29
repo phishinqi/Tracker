@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 0,1,5,11,14,17,22 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
   
@@ -12,15 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11.1'
-      - name: cache log
+      
+      - name: Cache log
         id: cache-log
         uses: actions/cache@v3
         with:
           path: log
-          key: bot-logs
+          key: bot-logs-${{ runner.os }}-${{ hashFiles('./main/*') }}  # 使用文件哈希确保缓存的唯一性
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -28,18 +32,19 @@ jobs:
 
       - name: Run python PyTrackers.py
         run: |
+          cd ./main  # 确保是在正确目录下
           python PyTrackers.py
-        working-directory: ./main
       
       - name: Commit Changes
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 🚀 CI Updated
+          branch: ${{ github.ref }}  # 使用统一的分支引用
 
       - name: GitHub Push
         if: steps.commit.outputs.changes_detected == 'true'
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
-          branch: ${{github.ref}}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}  # 使用统一的分支引用
