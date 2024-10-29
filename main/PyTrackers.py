@@ -7,8 +7,19 @@ from aiologger import Logger
 logger = Logger.with_default_handlers(name='my_async_logger')
 
 async def download_main_url():
-    # 假设这个函数是异步下载main_url.txt文件
-    pass
+    main_url = "https://raw.githubusercontent.com/phishinqi/phishinqi.github.io/refs/heads/main/assets/txt/trackers_url.txt"
+    logger.info("正在下载 main_url.txt 文件...")
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(main_url) as res:
+                res.raise_for_status()  # 检查响应状态
+                content = await res.text()
+        
+        with open('main_url.txt', 'w', encoding='utf-8') as f:
+            f.write(content)
+        logger.info("main_url.txt 文件下载完成。")
+    except aiohttp.ClientError as e:
+        logger.error(f"下载 main_url.txt 时发生网络错误: {e}")
 
 async def fetch_and_write_trackers(session, urls, trackers_file_path):
     for url in urls:
@@ -62,13 +73,13 @@ def remove_duplicates(input_file, output_file):
     logger.info("去重完成。")
 
 async def main():
-    await download_main_url()
-    urls = read_urls()
+    await download_main_url()  # 下载 main_url.txt
+    urls = read_urls()  # 读取 URL
     trackers_file_path = 'trackers.txt'
-    prepare_trackers_file(trackers_file_path)
+    prepare_trackers_file(trackers_file_path)  # 准备 trackers 文件
     async with aiohttp.ClientSession() as session:
-        await fetch_and_write_trackers(session, urls, trackers_file_path)
-    remove_duplicates('trackers.txt', 'output_trackers.txt')
+        await fetch_and_write_trackers(session, urls, trackers_file_path)  # 获取并写入 trackers
+    remove_duplicates('trackers.txt', 'output_trackers.txt')  # 去重
     await logger.shutdown()
 
 # 运行主函数
