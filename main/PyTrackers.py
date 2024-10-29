@@ -15,8 +15,9 @@ async def fetch_and_write_trackers(session, urls, trackers_file_path):
         logger.info(f"正在处理 URL: {url}")
         try:
             async with session.get(url) as res:
+                res.raise_for_status()  # 检查响应状态
                 html = await res.text()
-            with open(trackers_file_path, 'a') as f:
+            with open(trackers_file_path, 'a', encoding='utf-8') as f:
                 f.write(html + '\n')
             logger.info("处理完成。")
         except aiohttp.ClientError as e:
@@ -24,26 +25,26 @@ async def fetch_and_write_trackers(session, urls, trackers_file_path):
 
 def read_urls():
     logger.info("读取 URL 中...")
-    with open('main_url.txt', 'r') as f:
-        urls = [line.strip('\n') for line in f if line.strip('\n')]
+    with open('main_url.txt', 'r', encoding='utf-8') as f:
+        urls = [line.strip() for line in f if line.strip()]
     return urls
 
 def prepare_trackers_file(file_path):
     if os.path.exists(file_path):
         logger.info("trackers.txt 文件存在，正在清空内容...")
-        with open(file_path, 'w') as files:
+        with open(file_path, 'w', encoding='utf-8') as files:
             pass  # 清空文件内容
     else:
         logger.info("trackers.txt 文件不存在，正在创建...")
-        with open(file_path, 'w') as file_trackers:
+        with open(file_path, 'w', encoding='utf-8') as file_trackers:
             pass  # 创建空文件
 
 def remove_duplicates(input_file, output_file):
     logger.info("正在去重...")
-    with open(input_file, 'r') as f_read:
+    with open(input_file, 'r', encoding='utf-8') as f_read:
         lines = f_read.readlines()
 
-    with open(output_file, 'w') as f_write:
+    with open(output_file, 'w', encoding='utf-8') as f_write:
         seen = set()
         blank_line_needed = False
 
@@ -67,7 +68,7 @@ async def main():
     prepare_trackers_file(trackers_file_path)
     async with aiohttp.ClientSession() as session:
         await fetch_and_write_trackers(session, urls, trackers_file_path)
-    remove_duplicates('./trackers.txt', './output_trackers.txt')
+    remove_duplicates('trackers.txt', 'output_trackers.txt')
     await logger.shutdown()
 
 # 运行主函数
