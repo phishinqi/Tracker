@@ -72,13 +72,15 @@ async def remove_duplicates(input_file, output_file, original_file):
                 if seen and not last_line_wrote_space and stripped_line:
                     await f_write.write('\n')  # 写入一个空白行
                     last_line_wrote_space = True
-                else:
+                elif stripped_line:
                     last_line_wrote_space = False
+                    await f_write.write(line)  # 写入当前行
+                else:
+                    last_line_wrote_space = True  # 如果是空行则标记
 
                 seen.add(stripped_line)
-                await f_write.write(line)
             else:
-                last_line_wrote_space = True
+                last_line_wrote_space = True  # 如果当前行是重复的，标记为需要写空白行
 
     logger.info("去重完成。")
 
