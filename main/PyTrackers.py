@@ -141,4 +141,9 @@ if __name__ == "__main__":
     except RuntimeError as e:
         logger.error(f"运行时错误: {e}")
     finally:
-        await asyncio.sleep(0)  # 确保事件循环不会提前结束
+        # 确保使用 asyncio.run() 在异步上下文中执行
+        asyncio.run(cleanup())  # 新增的清理任务
+
+async def cleanup():
+    await asyncio.sleep(0)  # 确保事件循环不会提前结束
+
