@@ -138,12 +138,5 @@ if __name__ == "__main__":
         asyncio.run(main())  # 使用 asyncio.run 运行主程序
         elapsed_time = time.time() - start_time  # 计算耗时
         logger.info(f"程序运行完成，用时 {elapsed_time:.2f} 秒。")
-    except RuntimeError as e:
-        logger.error(f"运行时错误: {e}")
-    finally:
-        # 确保使用 asyncio.run() 在异步上下文中执行
-        asyncio.run(cleanup())  # 新增的清理任务
 
-async def cleanup():
-    await asyncio.sleep(0)  # 确保事件循环不会提前结束
 
