@@ -126,8 +126,10 @@ async def main():
         logger.error(f"删除 {MAIN_URL_FILE} 文件时发生错误: {e}")
 
 if __name__ == "__main__":
-    start_time = time.time()  # 开始计时
-    loop = asyncio.get_event_loop()  # 获取事件循环
-    loop.run_until_complete(main())  # 运行主程序
-    elapsed_time = time.time() - start_time  # 计算耗时
-    logger.info(f"程序运行完成，用时 {elapsed_time:.2f} 秒。")
+    try:
+        start_time = time.time()  # 开始计时
+        asyncio.run(main())  # 使用 asyncio.run 运行主程序
+        elapsed_time = time.time() - start_time  # 计算耗时
+        logger.info(f"程序运行完成，用时 {elapsed_time:.2f} 秒。")
+    except RuntimeError as e:
+        logger.error(f"运行时错误: {e}")
