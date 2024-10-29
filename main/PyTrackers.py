@@ -68,29 +68,26 @@ def remove_duplicates(input_file, output_file):
     print("正在去重...")
     with open(input_file, 'r') as f_read, open(output_file, 'w') as f_write:
         seen = set()  # 初始化seen集合
-        last_line_was_empty = True  # 用于跟踪上一行是否为空
-
         for line in f_read:
             stripped_line = line.strip()
             if stripped_line not in seen or not stripped_line:
                 if stripped_line:
-                    if not last_line_was_empty:
-                        f_write.write('\n')  # 在非空行之前添加一个换行符，如果上一行不是空行
                     f_write.write(stripped_line + '\n')
-                    last_line_was_empty = False  # 标记这一行为非空
-                else:
-                    last_line_was_empty = True  # 如果这一行是空行，则标记为True
                 seen.add(stripped_line)
-            else:
-                last_line_was_empty = True  # 如果这一行是重复的，那么它被视为空行
 
-    # 移除文件末尾的空白行
-    if f_write.tell() > 0:
-        f_write.seek(f_write.tell() - 1)
-        if f_write.read(1) == '\n':
-            f_write.truncate()
+    # 重新打开output_file以检查和移除末尾的空白行
+    with open(output_file, 'r+') as f:
+        contents = f.read()
+        f.seek(0, 0)
+        f.truncate()
+        # 写入修正后的内容，不包含末尾的空白行
+        if contents and contents[-1] != '\n':
+            f.write(contents + '\n')
+        else:
+            f.write(contents)
 
     print("去重完成。")
+
 
 
 # 主函数
