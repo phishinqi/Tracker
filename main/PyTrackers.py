@@ -95,7 +95,7 @@ async def remove_duplicates(input_file, output_file):
                     stripped_line = line.strip()
                     if stripped_line and stripped_line not in seen:
                         seen.add(stripped_line)
-                        await f_write.write(stripped_line + '\n')
+                        await f_write.write(stripped_line + '\n\n')  # 添加空行
 
         logger.info("去重完成。")
     except (OSError, IOError) as e:
