@@ -63,25 +63,25 @@ def prepare_trackers_file(file_path):
         print("trackers.txt 文件不存在，正在创建...")
         with open(file_path, 'w') as file_trackers:
             pass  # 创建空文件
-
-# 去除 trackers.txt 文件中的重复行，并在行与行之间添加一个空白行
+# 添加空白行
 def remove_duplicates(input_file, output_file):
     print("正在去重...")
     with open(input_file, 'r') as f_read, open(output_file, 'w') as f_write:
         seen = set()  # 初始化seen集合
-        last_line_was_empty = True  # 用于跟踪上一行是否为空
         for line in f_read:
             stripped_line = line.strip()
             if stripped_line not in seen or not stripped_line:
-                if not last_line_was_empty and stripped_line:  # 如果上一行不为空且当前行不为空
-                    f_write.write('\n')  # 在已有内容后添加一个换行符
-                f_write.write(stripped_line + '\n')
+                if stripped_line:  # 如果当前行不为空
+                    f_write.write(stripped_line + '\n')
                 seen.add(stripped_line)
-                last_line_was_empty = False  # 标记这一行为非空
             else:
-                last_line_was_empty = True  # 如果这一行是重复的，那么它被视为空行
+                continue  # 如果是重复行，则跳过
+        # 确保文件末尾没有多余的空白行
+        if f_write.tell() > 0:  # 如果文件不为空
+            f_write.seek(f_write.tell() - 1)  # 移动到文件末尾的前一个字符
+            if f_write.read(1) == '\n':  # 如果文件末尾是空白行
+                f_write.truncate()  # 截断文件，移除末尾的空白行
     print("去重完成。")
-
 
 # 主函数
 async def main():
