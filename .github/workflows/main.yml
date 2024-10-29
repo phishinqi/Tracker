@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install aiohttp aiologger tqdm aiofiles
+          pip install aiohttp aiologger tqdm aiofiles aiotqdm
 
       - name: Run python PyTrackers.py
         run: |
