@@ -55,7 +55,7 @@ def prepare_trackers_file(file_path):
         with open(file_path, 'w', encoding='utf-8') as file_trackers:
             pass  # 创建空文件
 
-async def remove_duplicates(input_file, output_file):
+async def remove_duplicates(input_file, output_file, original_file):
     logger.info("正在去重...")
     async with aiofiles.open(input_file, 'r', encoding='utf-8') as f_read:
         lines = await f_read.readlines()
@@ -63,9 +63,11 @@ async def remove_duplicates(input_file, output_file):
     seen = set()
     last_line_wrote_space = False
 
-    async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write:
+    async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write, aiofiles.open(original_file, 'w', encoding='utf-8') as f_original:
         for line in lines:
             stripped_line = line.strip()
+            await f_original.write(line)  # 将未去重的行写入原始文件
+
             if stripped_line not in seen or not stripped_line:
                 if seen and not last_line_wrote_space and stripped_line:
                     await f_write.write('\n')  # 写入一个空白行
@@ -87,7 +89,7 @@ async def main():
     prepare_trackers_file(trackers_file_path)  # 准备 trackers 文件
     async with aiohttp.ClientSession() as session:
         await fetch_and_write_trackers(session, urls, trackers_file_path)  # 获取并写入 trackers
-    await remove_duplicates('trackers.txt', 'output_trackers.txt')  # 去重
+    await remove_duplicates('trackers.txt', 'output_trackers.txt', 'original_trackers.txt')  # 去重并保存原始文件
     await logger.shutdown()
 
     # 删除 main_url.txt 文件
