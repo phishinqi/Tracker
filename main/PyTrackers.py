@@ -61,27 +61,18 @@ async def remove_duplicates(input_file, output_file):
         lines = await f_read.readlines()
 
     seen = set()
-    last_line_wrote_space = False
 
     async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write:
         for line in lines:
             stripped_line = line.strip()
 
-            if stripped_line not in seen or not stripped_line:
-                if seen and not last_line_wrote_space and stripped_line:
-                    await f_write.write('\n')  # 写入一个空白行
-                    last_line_wrote_space = True
-                elif stripped_line:
-                    last_line_wrote_space = False
-                    await f_write.write(line)  # 写入当前行
-                else:
-                    last_line_wrote_space = True  # 如果是空行则标记
-
-                seen.add(stripped_line)
-            else:
-                last_line_wrote_space = True  # 如果当前行是重复的，标记为需要写空白行
+            # 只写入非空行，并且未被记录的行
+            if stripped_line and stripped_line not in seen:
+                await f_write.write(line)  # 写入当前行
+                seen.add(stripped_line)  # 添加到集合中以跟踪已见行
 
     logger.info("去重完成。")
+
 
 async def main():
     await download_main_url()  # 下载 main_url.txt
