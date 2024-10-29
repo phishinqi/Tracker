@@ -61,7 +61,6 @@ async def remove_duplicates(input_file, output_file):
         lines = await f_read.readlines()
 
     seen = set()
-    line_count = 0  # 记录写入的行数
 
     async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write:
         for line in lines:
@@ -70,12 +69,8 @@ async def remove_duplicates(input_file, output_file):
             # 只写入非空行，并且未被记录的行
             if stripped_line and stripped_line not in seen:
                 await f_write.write(line)  # 写入当前行
+                await f_write.write('\n')  # 添加一个空行
                 seen.add(stripped_line)  # 添加到集合中以跟踪已见行
-                line_count += 1  # 更新行计数
-
-                # 每写入两行后添加一个空行
-                if line_count % 2 == 0:
-                    await f_write.write('\n')  # 写入一个空行
 
     logger.info("去重完成。")
 
