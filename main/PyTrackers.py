@@ -21,7 +21,8 @@ async def download_main_url():
 
     logger.info(f"正在下载 {MAIN_URL_FILE} 文件...")
     try:
-        async with aiohttp.ClientSession() as session:
+        timeout = aiohttp.ClientTimeout(total=30)  # 设置超时时间为30秒
+        async with aiohttp.ClientSession(timeout=timeout) as session:
             async with session.get(main_url) as response:
                 response.raise_for_status()
                 content = await response.text()
@@ -32,6 +33,8 @@ async def download_main_url():
         logger.info(f"{MAIN_URL_FILE} 文件下载完成。")
     except aiohttp.ClientError as e:
         logger.error(f"下载 {MAIN_URL_FILE} 时发生网络错误: {e}")
+    except asyncio.TimeoutError:
+        logger.error(f"下载 {MAIN_URL_FILE} 时超时。")
 
 async def read_urls():
     if not os.path.exists(MAIN_URL_FILE):
@@ -45,23 +48,34 @@ async def read_urls():
 async def prepare_trackers_file(file_name):
     # 若文件已存在，先删除
     if os.path.exists(file_name):
-        os.remove(file_name)
-        logger.info(f"已删除旧的 {file_name} 文件。")
+        try:
+            os.remove(file_name)
+            logger.info(f"已删除旧的 {file_name} 文件。")
+        except OSError as e:
+            logger.error(f"删除 {file_name} 文件时发生错误: {e}")
+    else:
+        logger.info(f"{file_name} 文件不存在，无需删除。")
+    
     # 创建一个新文件
     async with aiofiles.open(file_name, 'w', encoding='utf-8') as f:
         await f.write("")  # 创建空文件
 
+async def fetch_tracker(session, url, f_write):
+    try:
+        async with session.get(url) as response:
+            response.raise_for_status()
+            content = await response.text()
+            await f_write.write(content + '\n')
+    except aiohttp.ClientError as e:
+        logger.error(f"下载 {url} 时发生网络错误: {e}")
+    except asyncio.TimeoutError:
+        logger.error(f"下载 {url} 时超时。")
+
 async def fetch_and_write_trackers(session, urls, output_file):
     logger.info("正在下载 trackers...")
     async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
-        for url in tqdm(urls, desc="下载中", unit="个"):
-            try:
-                async with session.get(url) as response:
-                    response.raise_for_status()
-                    content = await response.text()
-                    await f_write.write(content + '\n')
-            except aiohttp.ClientError as e:
-                logger.error(f"下载 {url} 时发生网络错误: {e}")
+        tasks = [fetch_tracker(session, url, f_write) for url in urls]
+        await tqdm(asyncio.gather(*tasks), total=len(tasks), desc="下载中", unit="个")
 
 async def remove_duplicates(input_file, output_file):
     logger.info("正在去重...")
