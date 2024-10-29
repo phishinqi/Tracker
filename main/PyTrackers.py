@@ -88,5 +88,10 @@ async def main():
     remove_duplicates('trackers.txt', 'output_trackers.txt')  # 去重
     await logger.shutdown()
 
+    # 删除 main_url.txt 文件
+    if os.path.exists('main_url.txt'):
+        os.remove('main_url.txt')
+        logger.info("main_url.txt 文件已删除。")
+
 # 运行主函数
 asyncio.run(main())
