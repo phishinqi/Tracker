@@ -70,7 +70,7 @@ async def fetch_and_write_trackers(session, urls, output_file):
     
     for url in tqdm(urls, desc="下载中", unit="个"):
         try:
-            async with session.get(url) as response:
+            async with session.get(url, timeout=30) as response:  # 增加超时时间
                 response.raise_for_status()
                 content = await response.text()
                 contents.append(content)
@@ -140,3 +140,5 @@ if __name__ == "__main__":
         logger.info(f"程序运行完成，用时 {elapsed_time:.2f} 秒。")
     except RuntimeError as e:
         logger.error(f"运行时错误: {e}")
+    finally:
+        await asyncio.sleep(0)  # 确保事件循环不会提前结束
