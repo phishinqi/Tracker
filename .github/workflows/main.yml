@@ -23,6 +23,8 @@ jobs:
           key: bot-logs
       - name: Run pip install aiohttp
         run: pip install aiohttp
+      - name: Run pip install aiologger
+        run: pip install aiologger
       - name: Run python PyTrackers.py
         run: |
           python PyTrackers.py
