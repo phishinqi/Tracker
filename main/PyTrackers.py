@@ -1,9 +1,20 @@
-# coding=utf-8
-import urllib.request
+import asyncio
+import aiohttp
 import os
 
-# 获取当前文件路径并检查 main_url.txt
-def check_and_download_main_url():
+# 检查网络连接
+async def check_internet_connection(session):
+    try:
+        await session.head('https://www.google.com', timeout=5)
+        return True
+    except aiohttp.ClientConnectionError:
+        return False
+
+# 异步下载 main_url.txt
+async def download_main_url():
+    if not await check_internet_connection(aiohhttp.ClientSession()):
+        print("网络连接不可用，请检查您的网络设置。")
+        return
     url_file_path = os.getcwd()
     print("当前文件路径：", url_file_path)
     url_path = os.path.join(url_file_path, 'main_url.txt')
@@ -12,9 +23,28 @@ def check_and_download_main_url():
     else:
         print("main_url.txt 文件不存在，正在下载...")
         main_url = "https://raw.githubusercontent.com/phishinqi/phishinqi.github.io/main/assets/txt/trackers_url.txt"
-        with urllib.request.urlopen(main_url) as response, open(url_path, 'wb') as out_file:
-            out_file.write(response.read())
-        print("main_url.txt 文件下载完成。")
+        async with aiohttp.ClientSession() as session:
+            async with session.get(main_url) as response:
+                with open(url_path, 'wb') as out_file:
+                    while True:
+                        chunk = await response.content.read(1024)
+                        if not chunk:
+                            break
+                        out_file.write(chunk)
+            print("main_url.txt 文件下载完成。")
+
+# 异步读取 URL 并写入 trackers.txt
+async def fetch_and_write_trackers(session, urls, trackers_file_path):
+    for url in urls:
+        print(f"正在处理 URL: {url}")
+        try:
+            async with session.get(url) as res:
+                html = await res.text()
+            with open(trackers_file_path, 'a') as f:
+                f.write(html + '\n')
+            print("处理完成。")
+        except aiohttp.ClientError as e:
+            print(f"处理 URL {url} 时发生网络错误: {e}")
 
 # 读取 main_url.txt 文件内容并输出 URL 列表
 def read_urls():
@@ -34,21 +64,6 @@ def prepare_trackers_file(file_path):
         with open(file_path, 'w') as file_trackers:
             pass  # 创建空文件
 
-# 读取 URL 并写入 trackers.txt
-def fetch_and_write_trackers(urls, trackers_file_path):
-    for url in urls:
-        print(f"正在处理 URL: {url}")
-        try:
-            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'}
-            req = urllib.request.Request(url=url, headers=headers)
-            res = urllib.request.urlopen(req)
-            html = res.read().decode('utf-8')
-            with open(trackers_file_path, 'a') as f:
-                f.write(html + '\n')
-            print("处理完成。")
-        except Exception as e:
-            print(f"处理 URL {url} 时发生错误: {e}")
-
 # 去除 trackers.txt 文件中的重复行，并在行与行之间添加空白行
 def remove_duplicates(input_file, output_file):
     print("正在去重...")
@@ -56,19 +71,20 @@ def remove_duplicates(input_file, output_file):
         seen = set()
         for line in f_read:
             stripped_line = line.strip()
-            if stripped_line not in seen:
+            if stripped_line not in seen or not stripped_line:
                 f_write.write(stripped_line + '\n\n')
                 seen.add(stripped_line)
     print("去重完成。")
 
 # 主函数
-def main():
-    check_and_download_main_url()
+async def main():
+    await download_main_url()
     urls = read_urls()
     trackers_file_path = os.path.join(os.getcwd(), 'trackers.txt')
     prepare_trackers_file(trackers_file_path)
-    fetch_and_write_trackers(urls, trackers_file_path)
+    async with aiohttp.ClientSession() as session:
+        await fetch_and_write_trackers(session, urls, trackers_file_path)
     remove_duplicates('./trackers.txt', './output_trackers.txt')
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
