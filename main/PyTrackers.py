@@ -50,13 +50,8 @@ def read_urls():
         return [line.strip() for line in f if line.strip()]
 
 def prepare_trackers_file(file_path):
-    if os.path.exists(file_path):
-        logger.info("original_trackers.txt 文件存在，正在清空内容...")
-        with open(file_path, 'w', encoding='utf-8'):
-            pass
-    else:
-        logger.info("original_trackers.txt 文件不存在，正在创建...")
-
+    logger.info("准备 trackers 文件...")
+    # 无论文件存在与否，都清空内容
     with open(file_path, 'w', encoding='utf-8'):
         pass
 
@@ -64,19 +59,26 @@ async def remove_duplicates(input_file, output_file):
     logger.info("正在去重...")
     seen = set()
 
-    async with aiofiles.open(input_file, 'r', encoding='utf-8') as f_read:
-        async for line in f_read:
-            stripped_line = line.strip()
-            if stripped_line and stripped_line not in seen:
-                async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
-                    await f_write.write(stripped_line + '\n')
-                seen.add(stripped_line)
-
-    logger.info("去重完成。")
+    try:
+        async with aiofiles.open(input_file, 'r', encoding='utf-8') as f_read:
+            async for line in f_read:
+                stripped_line = line.strip()
+                if stripped_line and stripped_line not in seen:
+                    async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
+                        await f_write.write(stripped_line + '\n')
+                    seen.add(stripped_line)
+        logger.info("去重完成。")
+    except Exception as e:
+        logger.error(f"去重过程中发生错误: {e}")
 
 async def main():
     await download_main_url()
     urls = read_urls()
+    
+    if not urls:
+        logger.error("没有可处理的 URL，请检查 main_url.txt 文件。")
+        return
+    
     original_trackers_file_path = 'original_trackers.txt'
     
     prepare_trackers_file(original_trackers_file_path)
