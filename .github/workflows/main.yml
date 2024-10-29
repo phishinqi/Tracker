@@ -21,14 +21,11 @@ jobs:
         with:
           path: log
           key: bot-logs
-      - name: Run pip install aiohttp
-        run: pip install aiohttp
-      - name: Run pip install aiologger
-        run: pip install aiologger
-      - name: Run pip install tqdm
-        run: pip install tqdm
-      - name: Run pip install aiofiles
-        run: pip install aiofiles
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp aiologger tqdm aiofiles
+
       - name: Run python PyTrackers.py
         run: |
           python PyTrackers.py
