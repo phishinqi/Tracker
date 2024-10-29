@@ -68,18 +68,18 @@ def prepare_trackers_file(file_path):
 def remove_duplicates(input_file, output_file):
     print("正在去重...")
     with open(input_file, 'r') as f_read, open(output_file, 'w') as f_write:
-        last_line_was_empty = False  # 用于跟踪上一行是否为空
+        seen = set()  # 初始化seen集合
+        last_line_was_empty = True  # 用于跟踪上一行是否为空
         for line in f_read:
             stripped_line = line.strip()
             if stripped_line not in seen or not stripped_line:
-                if last_line_was_empty:  # 如果上一行是空行，先写入一个换行符
-                    f_write.write('\n')
-                else:
-                    last_line_was_empty = True  # 标记这一行为空行
+                if not last_line_was_empty and stripped_line:  # 如果上一行不为空且当前行不为空
+                    f_write.write('\n')  # 在已有内容后添加一个换行符
                 f_write.write(stripped_line + '\n')
                 seen.add(stripped_line)
+                last_line_was_empty = False  # 标记这一行为非空
             else:
-                last_line_was_empty = False  # 如果这一行不是重复的，那么它不是空行
+                last_line_was_empty = True  # 如果这一行是重复的，那么它被视为空行
     print("去重完成。")
 
 # 主函数
