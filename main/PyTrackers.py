@@ -66,27 +66,20 @@ def prepare_trackers_file(file_path):
 # 添加空白行
 def remove_duplicates(input_file, output_file):
     print("正在去重...")
-    with open(input_file, 'r') as f_read, open(output_file, 'w') as f_write:
-        seen = set()  # 初始化seen集合
-        for line in f_read:
+    with open(input_file, 'r') as f_read:
+        lines = f_read.readlines()
+
+    with open(output_file, 'w') as f_write:
+        seen = set()
+        for line in lines:
             stripped_line = line.strip()
             if stripped_line not in seen or not stripped_line:
                 if stripped_line:
                     f_write.write(stripped_line + '\n')
                 seen.add(stripped_line)
 
-    # 重新打开output_file以检查和移除末尾的空白行
-    with open(output_file, 'r+') as f:
-        contents = f.read()
-        f.seek(0, 0)
-        f.truncate()
-        # 写入修正后的内容，不包含末尾的空白行
-        if contents and contents[-1] != '\n':
-            f.write(contents + '\n')
-        else:
-            f.write(contents)
-
     print("去重完成。")
+
 
 
 
