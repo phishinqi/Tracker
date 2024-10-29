@@ -12,7 +12,7 @@ async def check_internet_connection(session):
 
 # 异步下载 main_url.txt
 async def download_main_url():
-    if not await check_internet_connection(aiohhttp.ClientSession()):
+    if not await check_internet_connection(aiohttp.ClientSession()):
         print("网络连接不可用，请检查您的网络设置。")
         return
     url_file_path = os.getcwd()
