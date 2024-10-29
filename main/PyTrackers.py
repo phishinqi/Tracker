@@ -34,7 +34,7 @@ async def download_main_url():
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(MAIN_URL) as response:
-                response.raise_for_status()  # 检查响应状态
+                response.raise_for_status()
                 content = await response.text()
 
         async with aiofiles.open(MAIN_URL_FILE, 'w', encoding='utf-8') as f:
@@ -78,8 +78,9 @@ async def fetch_and_write_trackers(session, urls, output_file):
             logger.error(f"下载 {url} 时发生网络错误: {e}")
     
     # 一次性写入下载的内容
-    async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
-        await f_write.write('\n'.join(contents) + '\n')
+    if contents:
+        async with aiofiles.open(output_file, 'a', encoding='utf-8') as f_write:
+            await f_write.write('\n'.join(contents) + '\n')
 
 async def remove_duplicates(input_file, output_file):
     """从输入文件中移除重复行并写入输出文件"""
@@ -96,10 +97,8 @@ async def remove_duplicates(input_file, output_file):
                         await f_write.write(stripped_line + '\n')
 
         logger.info("去重完成。")
-    except (OSError, IOError) as e:
-        logger.error(f"去重过程中发生文件 I/O 错误: {e}")
     except Exception as e:
-        logger.error(f"去重过程中发生其他错误: {e}")
+        logger.error(f"去重过程中发生错误: {e}")
 
 async def main():
     """主程序执行入口"""
@@ -119,12 +118,12 @@ async def main():
     await logger.shutdown()
 
     # 删除 MAIN_URL_FILE 文件前的安全检查
-    if os.path.exists(MAIN_URL_FILE):
-        try:
+    try:
+        if os.path.exists(MAIN_URL_FILE):
             os.remove(MAIN_URL_FILE)
             logger.info(f"{MAIN_URL_FILE} 文件已删除。")
-        except OSError as e:
-            logger.error(f"删除 {MAIN_URL_FILE} 文件时发生错误: {e}")
+    except OSError as e:
+        logger.error(f"删除 {MAIN_URL_FILE} 文件时发生错误: {e}")
 
 if __name__ == "__main__":
     start_time = time.time()  # 开始计时
