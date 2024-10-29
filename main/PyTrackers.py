@@ -63,18 +63,21 @@ def remove_duplicates(input_file, output_file):
 
     with open(output_file, 'w', encoding='utf-8') as f_write:
         seen = set()
-        blank_line_needed = False
+        last_line_wrote_space = False  # 用于跟踪是否需要写入空白行
 
         for line in lines:
             stripped_line = line.strip()
             if stripped_line not in seen or not stripped_line:
-                if blank_line_needed and stripped_line:
-                    f_write.write('\n')  # 添加一个空白行
+                if seen and not last_line_wrote_space and stripped_line:  # 如果前面已经写入了内容且当前行不是空行
+                    f_write.write('\n')  # 写入一个空白行
+                    last_line_wrote_space = True  # 标记已经写入空白行
+                else:
+                    last_line_wrote_space = False  # 如果当前行是内容行，重置标记
+
                 seen.add(stripped_line)
                 f_write.write(line)  # 写入当前行
-                blank_line_needed = not stripped_line  # 如果当前行是空行，则下一次不需要添加空白行
             else:
-                blank_line_needed = True  # 如果当前行是重复的，标记为需要空白行
+                last_line_wrote_space = True  # 如果当前行是重复的，标记为需要写空白行
 
     logger.info("去重完成。")
 
