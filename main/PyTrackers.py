@@ -47,15 +47,15 @@ def read_urls():
 
 def prepare_trackers_file(file_path):
     if os.path.exists(file_path):
-        logger.info("trackers.txt 文件存在，正在清空内容...")
+        logger.info("original_trackers.txt 文件存在，正在清空内容...")
         with open(file_path, 'w', encoding='utf-8') as files:
             pass  # 清空文件内容
     else:
-        logger.info("trackers.txt 文件不存在，正在创建...")
+        logger.info("original_trackers.txt 文件不存在，正在创建...")
         with open(file_path, 'w', encoding='utf-8') as file_trackers:
             pass  # 创建空文件
 
-async def remove_duplicates(input_file, output_file, original_file):
+async def remove_duplicates(input_file, output_file):
     logger.info("正在去重...")
     async with aiofiles.open(input_file, 'r', encoding='utf-8') as f_read:
         lines = await f_read.readlines()
@@ -63,10 +63,9 @@ async def remove_duplicates(input_file, output_file, original_file):
     seen = set()
     last_line_wrote_space = False
 
-    async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write, aiofiles.open(original_file, 'w', encoding='utf-8') as f_original:
+    async with aiofiles.open(output_file, 'w', encoding='utf-8') as f_write:
         for line in lines:
             stripped_line = line.strip()
-            await f_original.write(line)  # 将未去重的行写入原始文件
 
             if stripped_line not in seen or not stripped_line:
                 if seen and not last_line_wrote_space and stripped_line:
@@ -87,17 +86,18 @@ async def remove_duplicates(input_file, output_file, original_file):
 async def main():
     await download_main_url()  # 下载 main_url.txt
     urls = read_urls()  # 读取 URL
-    trackers_file_path = 'trackers.txt'
-    prepare_trackers_file(trackers_file_path)  # 准备 trackers 文件
+    original_trackers_file_path = 'original_trackers.txt'
+    prepare_trackers_file(original_trackers_file_path)  # 准备 original_trackers 文件
     async with aiohttp.ClientSession() as session:
-        await fetch_and_write_trackers(session, urls, trackers_file_path)  # 获取并写入 trackers
-    await remove_duplicates('trackers.txt', 'output_trackers.txt', 'original_trackers.txt')  # 去重并保存原始文件
+        await fetch_and_write_trackers(session, urls, original_trackers_file_path)  # 获取并写入 original_trackers
+    await remove_duplicates(original_trackers_file_path, 'output_trackers.txt')  # 去重并保存输出文件
     await logger.shutdown()
 
     # 删除 main_url.txt 文件
     if os.path.exists('main_url.txt'):
         os.remove('main_url.txt')
         logger.info("main_url.txt 文件已删除。")
+
 
 # 运行主函数
 asyncio.run(main())
