@@ -27,6 +27,8 @@ jobs:
         run: pip install aiologger
       - name: Run pip install tqdm
         run: pip install tqdm
+      - name: Run pip install aiofiles
+        run: pip install aiofiles
       - name: Run python PyTrackers.py
         run: |
           python PyTrackers.py
