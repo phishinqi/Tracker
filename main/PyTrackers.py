@@ -8,6 +8,12 @@ logger = Logger.with_default_handlers(name='my_async_logger')
 
 async def download_main_url():
     main_url = "https://raw.githubusercontent.com/phishinqi/phishinqi.github.io/refs/heads/main/assets/txt/trackers_url.txt"
+    
+    # 检查 main_url.txt 文件是否存在
+    if os.path.exists('main_url.txt'):
+        logger.info("main_url.txt 文件已存在，跳过下载。")
+        return
+
     logger.info("正在下载 main_url.txt 文件...")
     try:
         async with aiohttp.ClientSession() as session:
