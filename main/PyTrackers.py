@@ -2,6 +2,7 @@ import asyncio
 import aiohttp
 import os
 from aiologger import Logger
+from tqdm import tqdm
 
 # 创建一个异步日志记录器
 logger = Logger.with_default_handlers(name='my_async_logger')
@@ -28,15 +29,13 @@ async def download_main_url():
         logger.error(f"下载 main_url.txt 时发生网络错误: {e}")
 
 async def fetch_and_write_trackers(session, urls, trackers_file_path):
-    for url in urls:
-        logger.info(f"正在处理 URL: {url}")
+    for url in tqdm(urls, desc="处理 URL", unit="个"):
         try:
             async with session.get(url) as res:
                 res.raise_for_status()  # 检查响应状态
                 html = await res.text()
             with open(trackers_file_path, 'a', encoding='utf-8') as f:
                 f.write(html + '\n')
-            logger.info("处理完成。")
         except aiohttp.ClientError as e:
             logger.error(f"处理 URL {url} 时发生网络错误: {e}")
 
