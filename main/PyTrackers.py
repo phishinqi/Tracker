@@ -71,18 +71,15 @@ def remove_duplicates(input_file, output_file):
 
     with open(output_file, 'w') as f_write:
         seen = set()
-        blank_line_needed = False
-
-        for line in lines:
+        for i, line in enumerate(lines):
             stripped_line = line.strip()
-            if stripped_line not in seen or not stripped_line:
-                if blank_line_needed and stripped_line:
-                    f_write.write('\n')  # 添加一个空白行
+            # 如果行不为空且未被见过，或者列表中的第一个元素，写入文件
+            if stripped_line not in seen or i == 0:
                 seen.add(stripped_line)
-                f_write.write(line)  # 写入当前行
-                blank_line_needed = not stripped_line  # 如果当前行是空行，则下一次不需要添加空白行
-            else:
-                blank_line_needed = True  # 如果当前行是重复的，标记为需要空白行
+                f_write.write(line)
+                # 如果当前行不是列表中的最后一个元素且下一个行不为空，则添加一个空白行
+                if i < len(lines) - 1 and lines[i + 1].strip():
+                    f_write.write('\n')
 
     print("去重完成。")
 
