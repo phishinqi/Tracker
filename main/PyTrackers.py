@@ -64,7 +64,7 @@ def prepare_trackers_file(file_path):
         with open(file_path, 'w') as file_trackers:
             pass  # 创建空文件
 
-# 去除 trackers.txt 文件中的重复行，并在行与行之间添加空白行
+# 去除 trackers.txt 文件中的重复行，并在行与行之间添加一个空白行
 def remove_duplicates(input_file, output_file):
     print("正在去重...")
     with open(input_file, 'r') as f_read, open(output_file, 'w') as f_write:
@@ -72,9 +72,12 @@ def remove_duplicates(input_file, output_file):
         for line in f_read:
             stripped_line = line.strip()
             if stripped_line not in seen or not stripped_line:
-                f_write.write(stripped_line + '\n\n')
+                if f_write.tell() > 0:  # 检查输出文件是否已经有内容
+                    f_write.write('\n')  # 在已有内容后添加一个换行符
+                f_write.write(stripped_line + '\n')
                 seen.add(stripped_line)
     print("去重完成。")
+
 
 # 主函数
 async def main():
