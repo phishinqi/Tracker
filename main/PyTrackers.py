@@ -5,7 +5,6 @@ from aiologger import Logger
 from tqdm import tqdm
 import aiofiles
 
-# 定义常量
 MAIN_URL_FILE = 'main_url.txt'
 ORIGINAL_TRACKERS_FILE = 'original_trackers.txt'
 OUTPUT_TRACKERS_FILE = 'output_trackers.txt'
@@ -21,7 +20,7 @@ async def download_main_url():
 
     logger.info(f"正在下载 {MAIN_URL_FILE} 文件...")
     try:
-        timeout = aiohttp.ClientTimeout(total=30)  # 设置超时时间为30秒
+        timeout = aiohttp.ClientTimeout(total=30)
         async with aiohttp.ClientSession(timeout=timeout) as session:
             async with session.get(main_url) as response:
                 response.raise_for_status()
@@ -46,7 +45,6 @@ async def read_urls():
     return [url.strip() for url in urls if url.strip()]
 
 async def prepare_trackers_file(file_name):
-    # 若文件已存在，先删除
     if os.path.exists(file_name):
         try:
             os.remove(file_name)
@@ -55,10 +53,8 @@ async def prepare_trackers_file(file_name):
             logger.error(f"删除 {file_name} 文件时发生错误: {e}")
     else:
         logger.info(f"{file_name} 文件不存在，无需删除。")
-    
-    # 创建一个新文件
     async with aiofiles.open(file_name, 'w', encoding='utf-8') as f:
-        await f.write("")  # 创建空文件
+        await f.write("")
 
 async def fetch_tracker(session, url, f_write, progress_bar):
     try:
@@ -75,7 +71,7 @@ async def fetch_tracker(session, url, f_write, progress_bar):
     except Exception as e:
         logger.error(f"下载 {url} 时发生未知错误: {e}")
     finally:
-        progress_bar.update(1)  # 更新进度条
+        progress_bar.update(1)
 
 async def fetch_and_write_trackers(session, urls, output_file):
     logger.info("正在下载 trackers...")
@@ -95,7 +91,7 @@ async def remove_duplicates(input_file, output_file):
                     stripped_line = line.strip()
                     if stripped_line and stripped_line not in seen:
                         seen.add(stripped_line)
-                        await f_write.write(stripped_line + '\n\n')  # 添加空行
+                        await f_write.write(stripped_line + '\n\n')
 
         logger.info("去重完成。")
     except (OSError, IOError) as e:
@@ -119,7 +115,6 @@ async def main():
     await remove_duplicates(ORIGINAL_TRACKERS_FILE, OUTPUT_TRACKERS_FILE)
     await logger.shutdown()
 
-    # 删除 MAIN_URL_FILE 文件前的安全检查
     if os.path.exists(MAIN_URL_FILE):
         try:
             os.remove(MAIN_URL_FILE)
