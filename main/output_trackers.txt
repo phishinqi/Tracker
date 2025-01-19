@@ -4,31 +4,23 @@ http://tracker.opentrackr.org:1337/announce
 
 udp://open.demonii.com:1337/announce
 
-udp://open.tracker.cl:1337/announce
-
 http://open.tracker.cl:1337/announce
-
-udp://tracker.torrent.eu.org:451/announce
 
 udp://open.stealth.si:80/announce
 
-udp://explodie.org:6969/announce
-
 udp://exodus.desync.com:6969/announce
 
-udp://tracker.ololosh.space:6969/announce
+udp://tracker.torrent.eu.org:451/announce
 
 udp://tracker.dump.cl:6969/announce
 
-udp://tracker.bittor.pw:1337/announce
-
-udp://open.free-tracker.ga:6969/announce
-
 udp://ns-1.x-fins.com:6969/announce
 
-udp://leet-tracker.moe:1337/announce
-
 udp://isk.richardsw.club:6969/announce
+
+udp://explodie.org:6969/announce
+
+udp://discord.heihachi.pw:6969/announce
 
 http://www.torrentsnipe.info:2701/announce
 
@@ -38,85 +30,67 @@ http://tracker810.xyz:11450/announce
 
 http://tracker.xiaoduola.xyz:6969/announce
 
-http://tracker.vanitycore.co:6969/announce
-
 http://tracker.sbsub.com:2710/announce
 
-http://tracker.renfei.net:8080/announce
-
-http://tracker.lintk.me:2710/announce
+http://tracker.moxing.party:6969/announce
 
 http://tracker.ipv6tracker.org:80/announce
 
 http://tracker.dmcomic.org:2710/announce
 
-http://tracker.corpscorp.online:80/announce
-
 http://tracker.bz:80/announce
 
 http://tracker.bt-hash.com:80/announce
-
-http://tracker.bittor.pw:1337/announce
 
 http://t.jaekr.sh:6969/announce
 
 http://shubt.net:2710/announce
 
-http://servandroidkino.ru:80/announce
+http://share.hkg-fansub.info:80/announce.php
 
 http://seeders-paradise.org:80/announce
 
-http://open.trackerlist.xyz:80/announce
-
-http://finbytes.org:80/announce.php
-
-http://buny.uk:6969/announce
-
-http://bt1.xxxxbt.cc:6969/announce
-
-http://bt.poletracker.org:2710/announce
-
-udp://tracker.tiny-vps.com:6969/announce
-
-udp://tracker.skynetcloud.site:6969/announce
-
-udp://tracker-udp.gbitt.info:80/announce
-
-udp://tr4ck3r.duckdns.org:6969/announce
-
-udp://retracker.lanta.me:2710/announce
-
-udp://r.l5.ca:6969/announce
-
-udp://p2p.publictracker.xyz:6969/announce
-
-udp://opentracker.io:6969/announce
-
-udp://martin-gebhardt.eu:25/announce
-
-udp://evan.im:6969/announce
-
-udp://d40969.acod.regrucolo.ru:6969/announce
-
-udp://bandito.byterunner.io:6969/announce
-
-http://tracker.mywaifu.best:6969/announce
-
-http://tracker.moxing.party:6969/announce
-
-http://share.hkg-fansub.info:80/announce.php
-
 http://retracker.spark-rostov.ru:80/announce
 
-http://r.l5.ca:6969/announce
+http://open.trackerlist.xyz:80/announce
 
 http://home.yxgz.club:6969/announce
 
 http://highteahop.top:6960/announce
 
+http://finbytes.org:80/announce.php
+
+http://buny.uk:6969/announce
+
 http://0d.kebhana.mx:443/announce
 
 http://0123456789nonexistent.com:80/announce
+
+udp://tracker.ololosh.space:6969/announce
+
+udp://tracker-udp.gbitt.info:80/announce
+
+udp://p4p.arenabg.com:1337/announce
+
+udp://opentracker.io:6969/announce
+
+udp://open.free-tracker.ga:6969/announce
+
+http://tracker2.dler.org:80/announce
+
+http://tracker.vanitycore.co:6969/announce
+
+http://tracker.lintk.me:2710/announce
+
+http://tracker.bittor.pw:1337/announce
+
+http://servandroidkino.ru:80/announce
+
+http://p4p.arenabg.com:1337/announce
+
+http://bt1.xxxxbt.cc:6969/announce
+
+http://bt.poletracker.org:2710/announce
 
 udp://wepzone.net:6969/announce
 
@@ -128,15 +102,19 @@ udp://tracker1.myporn.club:9337/announce
 
 udp://tracker.tryhackx.org:6969/announce
 
+udp://tracker.tiny-vps.com:6969/announce
+
 udp://tracker.theoks.net:6969/announce
 
 udp://tracker.srv00.com:6969/announce
 
+udp://tracker.skynetcloud.site:6969/announce
+
 udp://tracker.qu.ax:6969/announce
 
-udp://tracker.gigantino.net:6969/announce
+udp://tracker.gmi.gd:6969/announce
 
-udp://tracker.fnix.net:6969/announce
+udp://tracker.gigantino.net:6969/announce
 
 udp://tracker.filemail.com:6969/announce
 
@@ -148,21 +126,37 @@ udp://tracker.darkness.services:6969/announce
 
 udp://tracker.0x7c0.com:6969/announce
 
+udp://tr4ck3r.duckdns.org:6969/announce
+
 udp://t.overflow.biz:6969/announce
 
-udp://p4p.arenabg.com:1337/announce
+udp://retracker.lanta.me:2710/announce
+
+udp://r.l5.ca:6969/announce
+
+udp://p2p.publictracker.xyz:6969/announce
 
 udp://open.dstud.io:6969/announce
 
+udp://martin-gebhardt.eu:25/announce
+
 udp://ismaarino.com:1234/announce
 
-udp://bt.rer.lol:2710/announce
+udp://ipv4.rer.lol:2710/announce
+
+udp://evan.im:6969/announce
+
+udp://d40969.acod.regrucolo.ru:6969/announce
 
 udp://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+
+udp://bandito.byterunner.io:6969/announce
 
 udp://6ahddutb1ucc3cp.ru:6969/announce
 
 https://tracker.yemekyedim.com:443/announce
+
+https://tracker.pmman.tech:443/announce
 
 https://tracker.lilithraws.org:443/announce
 
@@ -178,11 +172,15 @@ https://api.ipv4online.uk:443/announce
 
 http://wepzone.net:6969/announce
 
-http://tracker2.dler.org:80/announce
+http://tracker.waaa.moe:6969/announce
 
 http://tracker.srv00.com:6969/announce
 
+http://tracker.renfei.net:8080/announce
+
 http://tracker.qu.ax:6969/announce
+
+http://tracker.mywaifu.best:6969/announce
 
 http://tracker.dler.org:6969/announce
 
@@ -200,11 +198,9 @@ http://taciturn-shadow.spb.ru:6969/announce
 
 http://t.overflow.biz:6969/announce
 
-http://p4p.arenabg.com:1337/announce
+http://r.l5.ca:6969/announce
 
 http://open.tracker.ink:6969/announce
-
-http://open.acgtracker.com:1096/announce
 
 http://fleira.no:6969/announce
 
@@ -214,15 +210,15 @@ http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
 
 udp://tracker.torrust-demo.com:6969/announce
 
-udp://tracker.gmi.gd:6969/announce
+udp://tracker.fnix.net:6969/announce
 
 udp://ipv4announce.sktorrent.eu:6969/announce
-
-udp://ipv4.rer.lol:2710/announce
 
 udp://concen.org:6969/announce
 
 udp://bt.rer.lol:6969/announce
+
+udp://bt.rer.lol:2710/announce
 
 https://tracker.leechshield.link:443/announce
 
@@ -230,7 +226,7 @@ https://tracker.gcrenwp.top:443/announce
 
 https://sparkle.ghostchu-services.top:443/announce
 
-http://tracker.waaa.moe:6969/announce
+http://open.acgtracker.com:1096/announce
 
 http://1337.abcvg.info:80/announce
 
@@ -669,6 +665,8 @@ https://torrent.ubuntu.com:443/announce
 https://tracker.iriseden.fr/announce
 
 http://retracker.spark-rostov.ru/announce
+
+http://tracker.corpscorp.online:80/announce
 
 http://trun.tom.ru:80/announce
 
@@ -1131,6 +1129,8 @@ http://tracker.internetwarriors.net:1337/announce
 https://tracker.torrentsnows.com/announce
 
 udp://tracker.internetwarriors.net:1337/announce
+
+udp://open.tracker.cl:1337/announce
 
 http://45.154.253.6/announce
 
@@ -1812,6 +1812,8 @@ http://opentracker.io:80/announce
 
 udp://185.181.60.155:80/announce
 
+udp://tracker.bittor.pw:1337/announce
+
 udp://thinking.duckdns.org:6969/announce
 
 udp://tracker.cubonegro.xyz:6969/announce
@@ -2290,44 +2292,6 @@ http://bobbialbano.com:6969/announce
 
 https://bt.beatrice-raws.org/announce
 
-udp://tracker.moeking.me:6969/announce
-
-http://retracker01-msk-virt.corbina.net:80/announce
-
-udp://tracker.cubonegro.lol:6969/announce
-
-http://1c.premierzal.ru:6969/announce
-
-https://tracker.gcrreen.xyz:443/announce
-
-https://shahidrazi.online:443/announce
-
-https://tr.qfruiti.com:443/announce
-
-http://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
-
-udp://odd-hd.fr:6969/announce
-
-http://tk1.trackerservers.com:8080/announce
-
-udp://tracker.picotorrent.one:6969/announce
-
-udp://u4.trakx.crim.ist:1337/announce
-
-udp://www.torrent.eu.org:451/announce
-
-udp://tracker.therarbg.com:6969/announce
-
-udp://aarsen.me:6969/announce
-
-udp://canardscitrons.nohost.me:6969/announce
-
-https://yolo.liberbear.com:443/announce
-
-udp://ts.populargamers.co.za:6969/announce
-
-udp://tracker.anima.nz:6969/announce
-
 http://0205.uptm.ch:6969/announce
 
 http://0x7c.space:7070/announce
@@ -2352,8 +2316,6 @@ http://blackz.ro:80/announce
 
 http://bluebird-hd.org:80/announce
 
-http://bt-club.ws:80/announce
-
 http://bt.dl1234.com:80/announce
 
 http://bt.xcty.eu.org:2095/announce
@@ -2364,13 +2326,9 @@ http://data-bg.net:80/announce
 
 http://datascene.net:80/announce
 
-http://echostar.ddnsfree.com:8080/announce
-
 http://finbytes.org:80/announce
 
 http://i.bandito.org:80/announce
-
-http://ipv4.rer.lol:2710/announce
 
 http://ipv6.1337.cx:6969/announce
 
@@ -2387,8 +2345,6 @@ http://irrenhaus.dyndns.dk:80/announce
 http://jvavav.com:80/announce
 
 http://kinorun.com:80/announce
-
-http://kiryuu-test.mywaifu.best:6969/announce
 
 http://masters-tb.com:80/announce
 
@@ -2414,27 +2370,15 @@ http://openwrt.lingyurouqing.xyz:6969/announce
 
 http://proaudiotorrents.org:80/announce
 
-http://retracker.211.ru:80/announce
-
-http://retracker.hotplug.ru:2710/announce
-
-http://retracker.seven-sky.net:80/announce
-
 http://retracker.xxtor.com:80/announce
 
 http://s926723.ha016.t.mydomain.zone:80/announce
-
-http://saltwood.top:6969/announce
 
 http://share.hkg-fansub.info:80/announce
 
 http://siambit.com:80/announce
 
 http://siambit.org:80/announce
-
-http://t1.aag.moe:17715/announce
-
-http://t1.leech.ie:80/announce
 
 http://t2.leech.ie:80/announce
 
@@ -2445,6 +2389,8 @@ http://tinfoil.space:6969/announce
 http://tk.cubicview.site:80/announce
 
 http://tk.greedland.net:80/announce
+
+http://tk1.trackerservers.com:8080/announce
 
 http://tk1v6.trackerservers.com:8080/announce
 
@@ -2463,8 +2409,6 @@ http://torrent.hificode.in:6969/announce
 http://torrent.mp3quran.net:80/announce
 
 http://torrents.linuxmint.com:80/announce
-
-http://tr.bangumi.moe:80/announce
 
 http://tr1.aag.moe:2095/announce
 
@@ -2536,8 +2480,6 @@ http://tracker.zhuqiy.eu.org:36107/announce
 
 http://tracker1.torrentino.com:80/announce
 
-http://tracker2.dler.com:80/announce
-
 http://tracker2.torrentino.com:80/announce
 
 http://tracker3.torrentino.com:80/announce
@@ -2547,10 +2489,6 @@ http://trackers.ibzu.me:80/announce
 http://uatracker.net:80/announce
 
 http://v6-tracker.0g.cx:6969/announce
-
-http://wegkxfcivgx.chickenkiller.com:80/announce
-
-http://wegkxfcivgx.ydns.eu:80/announce
 
 http://www.all4nothin.net:80/announce
 
@@ -2578,12 +2516,6 @@ http://xtremewrestlingtorrents.net:80/announce
 
 http://yolo.liberbear.com:80/announce
 
-https://00.alarmasqueretaro.com:443/announce
-
-https://00.mercax.com:443/announce
-
-https://00.xxtor.com:443/announce
-
 https://0d.kebhana.mx:443/announce
 
 https://337hhh.xyz:443/announce
@@ -2608,10 +2540,6 @@ https://evening-badlands-6215.herokuapp.com:443/announce
 
 https://fbiagent.cyou:443/announce
 
-https://gwp2-v19.rinet.ru:443/announce
-
-https://hcbt.pp.ua:443/announce
-
 https://inferno.demonoid.is:443/announce
 
 https://ipv6.tracker.m-team.cc:443/announce
@@ -2630,11 +2558,11 @@ https://prestige.minimafia.nl:443/announce
 
 https://private.minimafia.nl:443/announce
 
-https://pybittrack.retiolus.net:443/announce
-
 https://retracker.x2k.ru:443/announce
 
 https://seeders-paradise.org:443/announce
+
+https://shahidrazi.online:443/announce
 
 https://socket.onvo.me:443/announce
 
@@ -2670,6 +2598,8 @@ https://tr.aag.moe:443/announce
 
 https://tr.kxmp.cf:443/announce
 
+https://tr.qfruiti.com:443/announce
+
 https://tr2.trkb.ru:443/announce
 
 https://track.solcloud.eu:443/announce
@@ -2692,11 +2622,11 @@ https://tracker.crawfish.cf:443/announce
 
 https://tracker.cybar.xyz:443/announce
 
-https://tracker.dnlab.net:443/announce
-
 https://tracker.feb217.tk:443/announce
 
 https://tracker.fr.eu.org:443/announce
+
+https://tracker.gcrreen.xyz:443/announce
 
 https://tracker.guguan.us.kg:443/announce
 
@@ -2717,8 +2647,6 @@ https://tracker.madtia.cc:443/announce
 https://tracker.moeking.me:443/announce
 
 https://tracker.nyaa.tk:443/announce
-
-https://tracker.pmman.tech:443/announce
 
 https://tracker.pterclub.com:443/announce
 
@@ -2742,15 +2670,11 @@ https://zer0day.000webhostapp.com:443/announce
 
 udp://0205.uptm.ch:6969/announce
 
-udp://10.rarbg.com:6969/announce
-
 udp://107.182.30.76.16clouds.com:6969/announce
 
 udp://147job.com:6969/announce
 
-udp://204.79.238.89.in-addr.arpa.manitu.net:6969/announce
-
-udp://7p41a8967.wicp.vip:22222/announce
+udp://aarsen.me:6969/announce
 
 udp://amigacity.xyz:6969/announce
 
@@ -2768,19 +2692,13 @@ udp://betelgeuse.freeddns.org:6969/announce
 
 udp://bigfoot1942.sektori.org:6969/announce
 
-udp://brightstar.freeddns.org:6969/announce
-
-udp://bry-dell-htpc.freeddns.org:6969/announce
-
 udp://bt1.xxxxbt.cc:6969/announce
-
-udp://btt.service.gongt.me:43079/announce
 
 udp://bttracker.debian.org:6969/announce
 
 udp://buny.uk:6969/announce
 
-udp://caramelo.ddns.net:8000/announce
+udp://canardscitrons.nohost.me:6969/announce
 
 udp://ch3oh.ru:6969/announce
 
@@ -2788,19 +2706,13 @@ udp://city21.pk:6969/announce
 
 udp://cn.pcfreetime.com:6969/announce
 
-udp://cq.kmzs123.cn:17272/announce
-
 udp://d13bttrck.duckdns.org:6969/announce
 
 udp://darkstarr.kozow.com:6881/announce
 
 udp://dataforai.com:31332/announce
 
-udp://db.koikia.eu:6969/announce
-
 udp://debuz.com:6969/announce
-
-udp://discord.heihachi.pw:6969/announce
 
 udp://dyndns.xionxiii.ovh:6969/announce
 
@@ -2809,10 +2721,6 @@ udp://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
 udp://fosstorrents.com:6969/announce
 
 udp://freedomalternative.com:6969/announce
-
-udp://ftp.pet:2710/announce
-
-udp://globalwave.no-ip.org:6969/announce
 
 udp://hbsy.zhuqiy.eu.org:6666/announce
 
@@ -2840,21 +2748,15 @@ udp://linfan.moe:6969/announce
 
 udp://llideong.cn:6969/announce
 
-udp://lloria.fr:6969/announce
-
 udp://lopatins.ru:5972/announce
 
-udp://lulz.vpndb.org:3000/announce
-
 udp://mail.lakameraobscura.com:6969/announce
-
-udp://mikrotik2.draatman.net:6969/announce
 
 udp://mixfiend.com:6969/announce
 
 udp://netmap.top:6969/announce
 
-udp://open-tracker.demonoid.ch:6969/announce
+udp://odd-hd.fr:6969/announce
 
 udp://open.8a.is:6969/announce
 
@@ -2878,15 +2780,11 @@ udp://pirate.t-1.org:1337/announce
 
 udp://public.demonoid.ch:6969/announce
 
-udp://pxnet.ru:6969/announce
-
 udp://region.nl1.privex.cc:6969/announce
 
 udp://retracker.hotplug.ru:2710/announce
 
 udp://rt.tace.ru:6969/announce
-
-udp://seedpeer.net:6969/announce
 
 udp://serpb.vpsburti.com:6969/announce
 
@@ -2906,8 +2804,6 @@ udp://tcq.zhuqiy.eu.org:25091/announce
 
 udp://tinfoil.space:6969/announce
 
-udp://tk4.leechshield.link:6969/announce
-
 udp://torrent.fedoraproject.org:6969/announce
 
 udp://torrent.hificode.in:6969/announce
@@ -2920,21 +2816,13 @@ udp://torrenttracker.nwc.acsalaska.net:6969/announce
 
 udp://touhou.kawaiiarts.com:6969/announce
 
-udp://tr2.ysagin.top:2715/announce
-
 udp://tr3.ysagin.top:2715/announce
-
-udp://trackarr.org:6969/announce
-
-udp://tracker-cn.zhuqiy.eu.org:6969/announce
 
 udp://tracker-us.silksa.co.za:6969/announce
 
 udp://tracker.1048576.cn:17272/announce
 
 udp://tracker.6.babico.name.tr:6969/announce
-
-udp://tracker.birkenwald.de:6969/announce
 
 udp://tracker.breizh.pm:6969/announce
 
@@ -2946,8 +2834,6 @@ udp://tracker.cyberia.is:6969/announce
 
 udp://tracker.doko.moe:6969/announce
 
-udp://tracker.draatman.uk:6969/announce
-
 udp://tracker.etree.org:6969/announce
 
 udp://tracker.files.fm:6969/announce
@@ -2956,25 +2842,9 @@ udp://tracker.hentai.gg:6969/announce
 
 udp://tracker.home.kmzs123.cn:17272/announce
 
-udp://tracker.iperson.xyz:6969/announce
-
-udp://tracker.jamesthebard.net:6969/announce
-
-udp://tracker.jonaslsa.com:6969/announce
-
 udp://tracker.kali.org:6969/announce
 
 udp://tracker.kmzs123.com:17272/announce
-
-udp://tracker.kmzs123.tk:17272/announce
-
-udp://tracker.kmzs123.top:17272/announce
-
-udp://tracker.leech.ie:1337/announce
-
-udp://tracker.leena.network:6969/announce
-
-udp://tracker.mirrorbay.org:6969/announce
 
 udp://tracker.moxing.party:6969/announce
 
@@ -2986,13 +2856,13 @@ udp://tracker.netmap.top:6969/announce
 
 udp://tracker.novaopcj.eu.org:6969/announce
 
-udp://tracker.ocnix.net:6969/announce
-
 udp://tracker.open-data.network:8888/announce
 
 udp://tracker.openbittorrent.com:6969/announce
 
 udp://tracker.pcfreetime.com:6969/announce
+
+udp://tracker.picotorrent.one:6969/announce
 
 udp://tracker.sheesh.rip:6969/announce
 
@@ -3001,6 +2871,8 @@ udp://tracker.silksa.co.za:6969/announce
 udp://tracker.t-1.org:6969/announce
 
 udp://tracker.teambelgium.net:6969/announce
+
+udp://tracker.therarbg.com:6969/announce
 
 udp://tracker.valete.tf:9999/announce
 
@@ -3028,13 +2900,15 @@ udp://tracker.yume-hatsuyuki.moe:6969/announce
 
 udp://tracker1.t-1.org:6969/announce
 
-udp://tracker3.t-1.org:6969/announce
-
 udp://tracker4.leechshield.link:6969/announce
 
 udp://trl-zhuqiy.dgj055.icu:6969/announce
 
+udp://ts.populargamers.co.za:6969/announce
+
 udp://u.peer-exchange.download:6969/announce
+
+udp://u4.trakx.crim.ist:1337/announce
 
 udp://u6.trakx.crim.ist:1337/announce
 
@@ -3055,6 +2929,8 @@ udp://widemus.de:6969/announce
 udp://www.2600.com:6969/announce
 
 udp://www.nartlof.com.br:6969/announce
+
+udp://www.torrent.eu.org:451/announce
 
 udp://www.tvnihon.com:6969/announce
 
@@ -3080,73 +2956,121 @@ wss://tracker.webtorrent.dev:443/announce
 
 http://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 
+http://ipv4.rer.lol:2710/announce
+
+http://retracker.hotplug.ru:2710/announce
+
 udp://[2a03:7220:8083:cd00::1]:451/announce
 
 udp://[2a04:ac00:1:3dd8::1:2710]:2710/announce
 
 udp://[2a0f:e586:f:f::81]:6969/announce
 
-udp://tk1v6.trackerservers.com:8080/announce
+udp://cq.kmzs123.cn:17272/announce
 
-udp://tk2.trackerservers.com:8080/announce
+udp://tracker.birkenwald.de:6969/announce
 
-http://00.alarmasqueretaro.com:443/announce
+udp://tracker.kmzs123.tk:17272/announce
 
-udp://tk.cubicview.site:80/announce
+http://bt-club.ws:80/announce
 
-https://yolo.liberbear.com:80/announce
+http://echostar.ddnsfree.com:8080/announce
 
-wss://tracker.magnetoo.io/announce
+http://kiryuu-test.mywaifu.best:6969/announce
 
-https://gwp2-v19.rinet.ru/announce
+http://retracker.211.ru:80/announce
 
-http://jsb.by00/announce
+http://retracker.seven-sky.net:80/announce
 
-http://share.camoe.cn80/announce
+http://retracker01-msk-virt.corbina.net:80/announce
 
-http://torrentsmd.com80/announce
+http://saltwood.top:6969/announce
 
-http://tr.cili001.com70/announce
+http://t1.aag.moe:17715/announce
 
-http://tracker1.itzmx.com80/announce
+http://t1.leech.ie:80/announce
 
-http://montreal.nyap2p.com80/announce
+http://tr.bangumi.moe:80/announce
 
-http://bt.ali213.net80/announce
+http://tracker2.dler.com:80/announce
 
-https://tr.kxmp.cf/announce
+http://wegkxfcivgx.chickenkiller.com:80/announce
 
-http://laxclax.ddns.net00/announce
+http://wegkxfcivgx.ydns.eu:80/announce
 
-http://tracker.merded.xyz00/announce
+https://00.alarmasqueretaro.com:443/announce
 
-http://bt2.54new.com80/announce
+https://00.mercax.com:443/announce
 
-http://tracker.renfei.net80/announce
+https://00.xxtor.com:443/announce
 
-http://tracker.ali213.net80/announce
+https://gwp2-v19.rinet.ru:443/announce
 
-http://www.chouchou.club80/announce
+https://hcbt.pp.ua:443/announce
 
-http://tracker3.ctix.cn80/announce
+https://pybittrack.retiolus.net:443/announce
 
-https://tracker.quix.cf/announce
+https://tracker.dnlab.net:443/announce
 
-http://tracker.dmhy.org00/announce
+udp://10.rarbg.com:6969/announce
 
-http://tracker.minglong.org80/announce
+udp://204.79.238.89.in-addr.arpa.manitu.net:6969/announce
 
-https://o-unkusrx.cloud.okteto.net/announce
+udp://7p41a8967.wicp.vip:22222/announce
 
-http://bt.ali213.net00/announce
+udp://brightstar.freeddns.org:6969/announce
 
-http://frp.v2fy.com00/announce
+udp://bry-dell-htpc.freeddns.org:6969/announce
 
-http://www.loushao.net80/announce
+udp://btt.service.gongt.me:43079/announce
 
-http://tracker.ali213.net00/announce
+udp://caramelo.ddns.net:8000/announce
 
-http://51.79.71.167/announce
+udp://db.koikia.eu:6969/announce
+
+udp://ftp.pet:2710/announce
+
+udp://globalwave.no-ip.org:6969/announce
+
+udp://lloria.fr:6969/announce
+
+udp://lulz.vpndb.org:3000/announce
+
+udp://mikrotik2.draatman.net:6969/announce
+
+udp://open-tracker.demonoid.ch:6969/announce
+
+udp://pxnet.ru:6969/announce
+
+udp://seedpeer.net:6969/announce
+
+udp://tk4.leechshield.link:6969/announce
+
+udp://tr2.ysagin.top:2715/announce
+
+udp://trackarr.org:6969/announce
+
+udp://tracker-cn.zhuqiy.eu.org:6969/announce
+
+udp://tracker.draatman.uk:6969/announce
+
+udp://tracker.iperson.xyz:6969/announce
+
+udp://tracker.jamesthebard.net:6969/announce
+
+udp://tracker.jonaslsa.com:6969/announce
+
+udp://tracker.kmzs123.top:17272/announce
+
+udp://tracker.leech.ie:1337/announce
+
+udp://tracker.leena.network:6969/announce
+
+udp://tracker.mirrorbay.org:6969/announce
+
+udp://tracker.ocnix.net:6969/announce
+
+udp://tracker3.t-1.org:6969/announce
 
 http://open.nyaatorrents.info:6544/announce
 
@@ -3205,4 +3129,230 @@ udp://bt.sc-ol.com:2710/announce
 udp://tracker.coppersurfer.tk:6969/announce
 
 udp://tracker.leechers-paradise.org:6969/announce
+
+udp://tk1v6.trackerservers.com:8080/announce
+
+udp://tk2.trackerservers.com:8080/announce
+
+http://00.alarmasqueretaro.com:443/announce
+
+udp://tk.cubicview.site:80/announce
+
+https://yolo.liberbear.com:80/announce
+
+http://51.79.71.167/announce
+
+https://gwp2-v19.rinet.ru/announce
+
+http://jsb.by00/announce
+
+http://share.camoe.cn80/announce
+
+http://torrentsmd.com80/announce
+
+http://tr.cili001.com70/announce
+
+http://tracker1.itzmx.com80/announce
+
+http://montreal.nyap2p.com80/announce
+
+http://bt.ali213.net80/announce
+
+https://tr.kxmp.cf/announce
+
+http://laxclax.ddns.net00/announce
+
+http://tracker.merded.xyz00/announce
+
+http://bt2.54new.com80/announce
+
+http://tracker.renfei.net80/announce
+
+http://tracker.ali213.net80/announce
+
+http://www.chouchou.club80/announce
+
+http://tracker3.ctix.cn80/announce
+
+https://tracker.quix.cf/announce
+
+http://tracker.dmhy.org00/announce
+
+http://tracker.minglong.org80/announce
+
+https://o-unkusrx.cloud.okteto.net/announce
+
+http://bt.ali213.net00/announce
+
+http://frp.v2fy.com00/announce
+
+http://www.loushao.net80/announce
+
+http://tracker.ali213.net00/announce
+
+wss://tracker.magnetoo.io/announce
+
+udp://tracker.moeking.me:6969/announce
+
+udp://tracker.cubonegro.lol:6969/announce
+
+http://1c.premierzal.ru:6969/announce
+
+http://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
+
+https://yolo.liberbear.com:443/announce
+
+udp://tracker.anima.nz:6969/announce
+
+http://107.189.2.131:1337/announce
+
+http://109.71.253.37:1096/announce
+
+http://116.8.91.220:6969/announce
+
+http://125.227.79.123:6969/announce
+
+http://138.124.183.78:6969/announce
+
+http://148.252.75.241:6969/announce
+
+http://157.131.124.190:6969/announce
+
+http://186.10.170.71:1337/announce
+
+http://187.56.205.91:6969/announce
+
+http://34.89.91.10:2710/announce
+
+http://34.89.91.10:443/announce
+
+http://34.89.91.10:6960/announce
+
+http://34.89.91.10:6969/announce
+
+http://34.89.91.10:80/announce
+
+http://34.89.91.10:80/announce.php
+
+http://34.94.76.146:1337/announce
+
+http://34.94.76.146:2701/announce
+
+http://34.94.76.146:2710/announce
+
+http://34.94.76.146:6969/announce
+
+http://34.94.76.146:80/announce
+
+http://35.227.59.57:11450/announce
+
+http://35.227.59.57:2710/announce
+
+http://35.227.59.57:6969/announce
+
+http://35.227.59.57:80/announce
+
+http://35.227.59.57:80/announce.php
+
+http://45.154.96.35:6969/announce
+
+http://5.19.182.213:6969/announce
+
+http://60.249.37.20:6969/announce
+
+http://60.249.37.20:80/announce
+
+http://74.48.17.122:6969/announce
+
+http://83.31.219.138:6969/announce
+
+http://89.110.76.229:6969/announce
+
+udp://107.189.2.131:1337/announce
+
+udp://108.53.194.223:6969/announce
+
+udp://125.227.79.123:6969/announce
+
+udp://135.125.202.143:6969/announce
+
+udp://138.124.183.78:6969/announce
+
+udp://144.126.245.19:6969/announce
+
+udp://148.113.168.115:6969/announce
+
+udp://157.131.124.190:6969/announce
+
+udp://176.123.1.180:6969/announce
+
+udp://176.99.7.59:6969/announce
+
+udp://18.191.163.220:6969/announce
+
+udp://185.189.13.108:6969/announce
+
+udp://185.216.179.62:25/announce
+
+udp://185.243.218.213:80/announce
+
+udp://186.10.170.71:1337/announce
+
+udp://187.56.205.91:6969/announce
+
+udp://209.141.59.16:6969/announce
+
+udp://209.141.59.25:6969/announce
+
+udp://220.200.35.69:2710/announce
+
+udp://220.200.35.69:6969/announce
+
+udp://23.134.90.9:1337/announce
+
+udp://23.153.248.83:6969/announce
+
+udp://23.157.120.14:6969/announce
+
+udp://23.163.56.66:6969/announce
+
+udp://34.94.76.146:1337/announce
+
+udp://34.94.76.146:6969/announce
+
+udp://37.235.176.37:2710/announce
+
+udp://45.154.96.35:6969/announce
+
+udp://49.13.133.10:6969/announce
+
+udp://5.181.156.41:6969/announce
+
+udp://5.255.124.190:6969/announce
+
+udp://54.39.48.3:6969/announce
+
+udp://60.249.37.20:80/announce
+
+udp://79.116.150.234:1234/announce
+
+udp://83.146.104.30:6969/announce
+
+udp://83.31.219.138:6969/announce
+
+udp://89.110.76.229:6969/announce
+
+udp://91.208.197.19:6969/announce
+
+udp://91.216.110.53:451/announce
+
+udp://94.23.207.177:6969/announce
+
+udp://home.yxgz.club:6969/announce
+
+udp://hzzwly.gq:6969/announce
+
+udp://leet-tracker.moe:1337/announce
+
+udp://tracker.joybomb.tw:6969/announce
 
