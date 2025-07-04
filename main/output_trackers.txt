@@ -3208,6 +3208,10 @@ udp://y.paranoid.agency:6969/announce
 
 udp://z.mercax.com:53/announce
 
+ws://tracker.files.fm:7072/announce
+
+wss://tracker.magnetoo.io:443/announce
+
 http://open.nyaatorrents.info:6544/announce
 
 http://t2.popgo.org:7456/annonce
@@ -3280,12 +3284,6 @@ https://yolo.liberbear.com:443/announce
 
 udp://tracker.anima.nz:6969/announce
 
-ws://tracker.files.fm:7072/announce
-
-wss://tracker.magnetoo.io:443/announce
-
-wss://tracker.magnetoo.io/announce
-
 http://00.alarmasqueretaro.com:443/announce
 
 udp://tk.cubicview.site:80/announce
@@ -3293,4 +3291,6 @@ udp://tk.cubicview.site:80/announce
 https://yolo.liberbear.com:80/announce
 
 udp://tk2.trackerservers.com:8080/announce
+
+wss://tracker.magnetoo.io/announce
 
