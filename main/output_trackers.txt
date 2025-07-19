@@ -1830,29 +1830,251 @@ udp://trl-zhuqiy.dgj055.icu:6969/announce
 
 udp://open.stealth.si:80/announce
 
-udp://tracker.moeking.me:6969/announce
-
 udp://tracker2.dler.org:80/announce
 
-udp://tracker.cubonegro.lol:6969/announce
+udp://tracker-udp.gbitt.info:80/announce
 
-http://1c.premierzal.ru:6969/announce
+udp://retracker01-msk-virt.corbina.net:80/announce
 
-https://tracker.gcrreen.xyz:443/announce
+http://share.hkg-fansub.info:80/announce.php
 
-http://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
+http://finbytes.org:80/announce.php
 
-https://yolo.liberbear.com:443/announce
+http://0d.kebhana.mx:443/announce
 
-udp://tracker.anima.nz:6969/announce
+https://tracker.lilithraws.cf/announce
+
+https://tracker1.520.jp/announce
+
+https://tr.burnabyhighstar.com/announce
+
+https://tracker.m-team.cc/announce.php
+
+https://tracker.loligirl.cn/announce
+
+https://tp.m-team.cc:443/announce.php
+
+https://tr.abir.ga/announce
+
+https://tr.abiir.top/announce
+
+https://tracker.gbitt.info/announce
+
+https://tp.m-team.cc/announce.php
+
+https://tracker.kuroy.me/announce
+
+https://tracker.tamersunion.org/announce
+
+https://abir0dev.github.io/announce
+
+https://tracker.nanoha.org/announce
+
+https://tr.ready4.icu/announce
+
+https://tracker.imgoingto.icu/announce
+
+https://tracker1.loli.co.nz/announce
+
+https://tr.fuckbitcoin.xyz/announce
+
+https://t.btcland.xyz/announce
+
+https://tracker.foreverpirates.co/announce
+
+https://tracker.parrotlinux.org/announce
+
+https://tracker.parrotsec.org/announce
+
+https://tracker.dmhy.pw/announce
+
+https://w.wwwww.wtf/announce
+
+https://carbon-bonsai-621.appspot.com/announce
+
+https://tracker.expli.top/announce
+
+https://tracker.feb217.tk/announce
+
+https://tracker.baka.ink/announce
+
+https://1337.abcvg.info/announce
+
+https://tracker.lilithraws.org/announce
+
+https://tracker1.ctix.cn/announce
+
+https://trackme.theom.nz/announce
+
+https://opentracker.cc/announce
+
+https://opentracker.i2p.rocks/announce
+
+https://trakx.herokuapp.com/announce
+
+https://t.quic.ws/announce
+
+https://tracker.4.babico.name.tr/announce
+
+https://open.kickasstracker.com/announce
+
+https://xtremex.herokuapp.com/announce
+
+https://torrents.linuxmint.com:443/announce.php
+
+https://tracker.nyaa.tk/announce
+
+https://tracker.iriseden.fr/announce
+
+https://opentracker.xyz/announce
+
+https://tracker.moeblog.cn/announce
+
+https://tracker.bt-hash.com/announce
+
+https://tracker.dnlab.net/announce
+
+https://x7x.up.railway.app/announce
+
+https://www.wareztorrent.com/announce
+
+https://torrents.linuxmint.com/announce.php
+
+https://tracker.logirl.moe/announce
+
+https://torrent.ubuntu.com/announce
+
+https://tr.bangumi.moe:6969/announce
+
+https://tracker.m-team.cc:443/announce.php
+
+https://tracker2.ctix.cn/announce
+
+https://tracker.cyber-hub.net/announce
+
+https://tracker.torrentsnows.com/announce
+
+https://tracker.loli.co.nz/announce
+
+https://t1.tokhmi.xyz/announce
+
+https://bittorrent.gongt.net/announce
+
+https://tracker.srv00.com/announce
+
+https://tracker.publictorrent.net/announce
+
+https://seeders-paradise.org/announce
+
+https://tracker.lelux.fi/announce
+
+https://cernet-tracker.appspot.com/announce
+
+https://tracker.opentracker.se/announce
+
+https://t1.hloli.org/announce
+
+https://inferno.demonoid.is/announce
+
+https://docker-tracker-production.up.railway.app/announce
+
+https://carapax.net/announce
+
+https://tracker.moxing.party:6969/announce
+
+https://grifon.info:80/announce
+
+https://tracker1.wimix.org/announce
+
+https://tr.kxmp.cf:80/announce
+
+https://bt.endpot.com/announce
+
+https://337hhh.xyz/announce
+
+https://chihaya-heroku.120181311.xyz/announce
+
+https://tracker.crawfish.cf/announce
+
+https://tracker.cangku.moe/announce
+
+https://trackers.mlsub.net/announce
+
+https://tracker.mlsub.net/announce
+
+https://tracker.pterclub.com/announce
+
+https://tracker.tvgc.win/announce
+
+https://zer0day.000webhostapp.com/announce
+
+https://evening-badlands-6215.herokuapp.com/announce
+
+https://ttk.pp.ua/announce
+
+https://hcbt.pp.ua/announce
+
+https://tracker.shittyurl.org/announce
+
+https://tracker.nitrix.me/announce
+
+https://voxhost.fr/announce
+
+https://dev.tracker.cf-identity-wallet.metadata.dev.cf-deployments.org/announce
+
+https://torrent-tracker.hama3.net/announce
+
+https://tr.doogh.club/announce
+
+https://tr.highstar.shop/announce
+
+https://t.zerg.pw/announce
+
+https://tracker.renfei.net/announce
+
+https://tr.nyacat.pw/announce
+
+https://tracker.bangumi.zip/announce
+
+https://tracker.ipfsscan.io/announce
+
+https://tr.torland.ga/announce
+
+https://tk.mabo.ltd/announce
+
+https://tracker.cloudit.top/announce
+
+https://k3tracker.cc/announce/0b0b5b2bb71770aa0df56f80a4863f07
+
+https://tracker.kitaujisub.site/announce.php?authkey=213|10003|j46n2q
+
+https://tracker.kitaujisub.site/announce.php?authkey=215|10003|j46n2q
+
+https://tracker.kawaii.id/announce
+
+https://tracker.monikadesign.uk/announce/63ea34cb9815cd28d63fc75b2f2c5a56
+
+https://tracker.bt4g.com/announce
+
+https://tracker.monikadesign.uk/announce/a46be21ab845cc0d534d06fea801f95a
+
+https://k.avc.cx:443/announce.php
+
+https://bt.080609.xyz/announce
+
+https://tracker.vectahosting.eu/announce
+
+https://k.avc.cx/announce.php
+
+https://bt.nfshost.com/announce
+
+https://bt.beatrice-raws.org/announce
 
 http://00.mercax.com:443/announce
 
 http://00.xxtor.com:443/announce
 
 http://0123456789nonexistent.com/announce
-
-http://0d.kebhana.mx:443/announce
 
 http://104.143.10.186:8000/announce
 
@@ -2358,8 +2580,6 @@ http://ehtracker.org/2566145/1159106xUfsJkT9Btg/announce
 
 http://finbytes.org/announce.php
 
-http://finbytes.org:80/announce.php
-
 http://frp.v2fy.com00/announce
 
 http://fxtt.ru/announce
@@ -2479,8 +2699,6 @@ http://servandroidkino.ru/announce
 http://share.camoe.cn80/announce
 
 http://share.hkg-fansub.info/announce.php
-
-http://share.hkg-fansub.info:80/announce.php
 
 http://siambit.com/announce.php
 
@@ -2728,241 +2946,13 @@ http://xtremewrestlingtorrents.net/announce.php
 
 http://xtremewrestlingtorrents.net:80/announce.php
 
-https://1337.abcvg.info/announce
-
-https://337hhh.xyz/announce
-
-https://abir0dev.github.io/announce
-
-https://bittorrent.gongt.net/announce
-
-https://bt.080609.xyz/announce
-
-https://bt.beatrice-raws.org/announce
-
-https://bt.endpot.com/announce
-
-https://bt.nfshost.com/announce
-
-https://carapax.net/announce
-
-https://carbon-bonsai-621.appspot.com/announce
-
-https://cernet-tracker.appspot.com/announce
-
-https://chihaya-heroku.120181311.xyz/announce
-
-https://dev.tracker.cf-identity-wallet.metadata.dev.cf-deployments.org/announce
-
-https://docker-tracker-production.up.railway.app/announce
-
-https://evening-badlands-6215.herokuapp.com/announce
-
-https://grifon.info:80/announce
-
 https://gwp2-v19.rinet.ru/announce
-
-https://hcbt.pp.ua/announce
-
-https://inferno.demonoid.is/announce
-
-https://k.avc.cx/announce.php
-
-https://k.avc.cx:443/announce.php
-
-https://k3tracker.cc/announce/0b0b5b2bb71770aa0df56f80a4863f07
 
 https://o-unkusrx.cloud.okteto.net/announce
 
-https://open.kickasstracker.com/announce
-
-https://opentracker.cc/announce
-
-https://opentracker.i2p.rocks/announce
-
-https://opentracker.xyz/announce
-
-https://seeders-paradise.org/announce
-
-https://t.btcland.xyz/announce
-
-https://t.quic.ws/announce
-
-https://t.zerg.pw/announce
-
-https://t1.hloli.org/announce
-
-https://t1.tokhmi.xyz/announce
-
-https://tk.mabo.ltd/announce
-
-https://torrent-tracker.hama3.net/announce
-
-https://torrent.ubuntu.com/announce
-
-https://torrents.linuxmint.com/announce.php
-
-https://torrents.linuxmint.com:443/announce.php
-
-https://tp.m-team.cc/announce.php
-
-https://tp.m-team.cc:443/announce.php
-
-https://tr.abiir.top/announce
-
-https://tr.abir.ga/announce
-
-https://tr.bangumi.moe:6969/announce
-
-https://tr.burnabyhighstar.com/announce
-
-https://tr.doogh.club/announce
-
-https://tr.fuckbitcoin.xyz/announce
-
-https://tr.highstar.shop/announce
-
 https://tr.kxmp.cf/announce
 
-https://tr.kxmp.cf:80/announce
-
-https://tr.nyacat.pw/announce
-
-https://tr.ready4.icu/announce
-
-https://tr.torland.ga/announce
-
-https://tracker.4.babico.name.tr/announce
-
-https://tracker.baka.ink/announce
-
-https://tracker.bangumi.zip/announce
-
-https://tracker.bt-hash.com/announce
-
-https://tracker.bt4g.com/announce
-
-https://tracker.cangku.moe/announce
-
-https://tracker.cloudit.top/announce
-
-https://tracker.crawfish.cf/announce
-
-https://tracker.cyber-hub.net/announce
-
-https://tracker.dmhy.pw/announce
-
-https://tracker.dnlab.net/announce
-
-https://tracker.expli.top/announce
-
-https://tracker.feb217.tk/announce
-
-https://tracker.foreverpirates.co/announce
-
-https://tracker.gbitt.info/announce
-
-https://tracker.imgoingto.icu/announce
-
-https://tracker.ipfsscan.io/announce
-
-https://tracker.iriseden.fr/announce
-
-https://tracker.kawaii.id/announce
-
-https://tracker.kitaujisub.site/announce.php?authkey=213|10003|j46n2q
-
-https://tracker.kitaujisub.site/announce.php?authkey=215|10003|j46n2q
-
-https://tracker.kuroy.me/announce
-
-https://tracker.lelux.fi/announce
-
-https://tracker.lilithraws.cf/announce
-
-https://tracker.lilithraws.org/announce
-
-https://tracker.logirl.moe/announce
-
-https://tracker.loli.co.nz/announce
-
-https://tracker.loligirl.cn/announce
-
-https://tracker.m-team.cc/announce.php
-
-https://tracker.m-team.cc:443/announce.php
-
-https://tracker.mlsub.net/announce
-
-https://tracker.moeblog.cn/announce
-
-https://tracker.monikadesign.uk/announce/63ea34cb9815cd28d63fc75b2f2c5a56
-
-https://tracker.monikadesign.uk/announce/a46be21ab845cc0d534d06fea801f95a
-
-https://tracker.moxing.party:6969/announce
-
-https://tracker.nanoha.org/announce
-
-https://tracker.nitrix.me/announce
-
-https://tracker.nyaa.tk/announce
-
-https://tracker.opentracker.se/announce
-
-https://tracker.parrotlinux.org/announce
-
-https://tracker.parrotsec.org/announce
-
-https://tracker.pterclub.com/announce
-
-https://tracker.publictorrent.net/announce
-
 https://tracker.quix.cf/announce
-
-https://tracker.renfei.net/announce
-
-https://tracker.shittyurl.org/announce
-
-https://tracker.srv00.com/announce
-
-https://tracker.tamersunion.org/announce
-
-https://tracker.torrentsnows.com/announce
-
-https://tracker.tvgc.win/announce
-
-https://tracker.vectahosting.eu/announce
-
-https://tracker1.520.jp/announce
-
-https://tracker1.ctix.cn/announce
-
-https://tracker1.loli.co.nz/announce
-
-https://tracker1.wimix.org/announce
-
-https://tracker2.ctix.cn/announce
-
-https://trackers.mlsub.net/announce
-
-https://trackme.theom.nz/announce
-
-https://trakx.herokuapp.com/announce
-
-https://ttk.pp.ua/announce
-
-https://voxhost.fr/announce
-
-https://w.wwwww.wtf/announce
-
-https://www.wareztorrent.com/announce
-
-https://x7x.up.railway.app/announce
-
-https://xtremex.herokuapp.com/announce
-
-https://zer0day.000webhostapp.com/announce
 
 udp://10.rarbg.com/announce
 
@@ -3174,15 +3164,11 @@ udp://open.stealth.si/announce
 
 udp://pow7.com:80/announce
 
-udp://retracker01-msk-virt.corbina.net:80/announce
-
 udp://thetracker.org:80/announce
 
 udp://tk1.trackerservers.com:8080/announce
 
 udp://tracker-udp.anirena.com:80/announce
-
-udp://tracker-udp.gbitt.info:80/announce
 
 udp://tracker.ccc.de:80/announce
 
@@ -3203,6 +3189,20 @@ udp://tracker1.bt.moack.co.kr:80/announce
 udp://tracker1.itzmx.com:8080/announce
 
 udp://tracker2.dler.com:80/announce
+
+udp://tracker.moeking.me:6969/announce
+
+udp://tracker.cubonegro.lol:6969/announce
+
+http://1c.premierzal.ru:6969/announce
+
+https://tracker.gcrreen.xyz:443/announce
+
+http://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
+
+https://yolo.liberbear.com:443/announce
+
+udp://tracker.anima.nz:6969/announce
 
 http://open.nyaatorrents.info:6544/announce
 
@@ -3269,78 +3269,4 @@ wss://tracker.magnetoo.io/announce
 https://yolo.liberbear.com:80/announce
 
 udp://tk2.trackerservers.com:8080/announce
-
-<!DOCTYPE html>
-
-<html lang="">
-
-<head>
-
-<title>GitHub Proxy 最新地址发布</title>
-
-<!-- <title>vue</title> -->
-
-<meta charset="utf-8">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-<link rel="icon" href="/favicon.ico">
-
-<!-- Twitter Cards -->
-
-<meta name="twitter:card" content="summary_large_image" />
-
-<meta name="twitter:site" content="@stilleshan" />
-
-<meta name="twitter:creator" content="@stilleshan" />
-
-<meta property="og:url" content="https://ghp.ci" />
-
-<meta property="og:title" content="GitHub Proxy 代理加速" />
-
-<meta property="og:description"
-
-content="GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务." />
-
-<meta property="og:image" content="/img/ghproxy_com_twitter_800.jpg" />
-
-<!-- Google tag (gtag.js) -->
-
-<!-- <script async src="https://ga.ioiox.net/gtag/js?id=G-YR9B2BS8D8"></script>
-
-<script>
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
-
-gtag('config', 'G-YR9B2BS8D8');
-
-</script> -->
-
-<!-- Umami Analytics -->
-
-<script defer src="https://umami.ioiox.net/script.js" data-website-id="3e1fae78-3366-40fc-8671-5da9ad43483c"></script>
-
-<script defer src="/js/chunk-vendors.js"></script><script defer src="/js/app.js"></script></head>
-
-<body>
-
-<noscript>
-
-<strong>We're sorry but vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-
-</noscript>
-
-<div id="app"></div>
-
-<!-- built files will be auto injected -->
-
-</body>
-
-</html>
 
