@@ -3258,20 +3258,6 @@ wss://tracker.magnetoo.io:443/announce
 
 wss://tracker.openwebtorrent.com:443/announce
 
-udp://tracker.moeking.me:6969/announce
-
-udp://tracker.cubonegro.lol:6969/announce
-
-http://1c.premierzal.ru:6969/announce
-
-https://tracker.gcrreen.xyz:443/announce
-
-http://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
-
-https://yolo.liberbear.com:443/announce
-
-udp://tracker.anima.nz:6969/announce
-
 wss://tracker.openwebtorrent.com/announce
 
 wss://tracker.magnetoo.io/announce
@@ -3333,6 +3319,20 @@ udp://bt.sc-ol.com:2710/announce
 udp://tracker.coppersurfer.tk:6969/announce
 
 udp://tracker.leechers-paradise.org:6969/announce
+
+udp://tracker.moeking.me:6969/announce
+
+udp://tracker.cubonegro.lol:6969/announce
+
+http://1c.premierzal.ru:6969/announce
+
+https://tracker.gcrreen.xyz:443/announce
+
+http://ec2-18-191-163-220.us-east-2.compute.amazonaws.com:6969/announce
+
+https://yolo.liberbear.com:443/announce
+
+udp://tracker.anima.nz:6969/announce
 
 udp://open.demonii.si:80/announce
 
