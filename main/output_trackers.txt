@@ -3250,6 +3250,14 @@ udp://ts.populargamers.co.za:6969/announce
 
 udp://tracker.anima.nz:6969/announce
 
+udp://isk.richardsw.club:6969/announce
+
+udp://glotorrents.pw:6969/announce
+
+wss://tracker.openwebtorrent.com/announce
+
+wss://tracker.magnetoo.io/announce
+
 http://open.nyaatorrents.info:6544/announce
 
 http://t2.popgo.org:7456/annonce
@@ -3313,10 +3321,6 @@ udp://open.demonii.si:80/announce
 https://yolo.liberbear.com:80/announce
 
 udp://tk2.trackerservers.com:8080/announce
-
-wss://tracker.magnetoo.io/announce
-
-wss://tracker.openwebtorrent.com/announce
 
 <!DOCTYPE html>
 
