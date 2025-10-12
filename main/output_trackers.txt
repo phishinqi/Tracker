@@ -3238,6 +3238,8 @@ wss://tracker.ghostchu-services.top:443/announce
 
 wss://tracker.magnetoo.io:443/announce
 
+wss://tracker.magnetoo.io/announce
+
 udp://tracker.moeking.me:6969/announce
 
 udp://tracker.cubonegro.lol:6969/announce
@@ -3253,8 +3255,6 @@ https://yolo.liberbear.com:443/announce
 udp://ts.populargamers.co.za:6969/announce
 
 udp://tracker.anima.nz:6969/announce
-
-wss://tracker.magnetoo.io/announce
 
 http://open.nyaatorrents.info:6544/announce
 
